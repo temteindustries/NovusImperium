@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Buildings/AdeptusMechanicus/BuildingsGroundDiffuse"/>
+		<texture name="Buildings/AdeptusMechanicus/BuildingsGroundNormal"/>
+		<texture name="Buildings/AdeptusMechanicus/BuildingsGroundSIC"/>
+		<texture name="ShadowMapColor"/>
+		<texture name="Buildings/BuildingsGroundMask"/>
+		<texture name="Groundmap1"/>
+	</textures>
+</material>

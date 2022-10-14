@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<material>
+	<textures>
+		<texture name="Units/NovusImperium/KastelanRobotDiffuse"/>
+		<texture name="Units/NovusImperium/KastelanRobotNormal"/>
+		<texture name="Units/NovusImperium/KastelanRobotSIC"/>
+		<texture name="ShadowMapColor"/>
+	</textures>
+</material>

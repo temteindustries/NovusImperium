@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/Thunderbolt"
+				material="Units/AstraMilitarum/Thunderbolt"
+				position="0 0 64"
+				idleAnimation="Units/AstraMilitarum/ThunderboltIdle"
+				idleAnimationCount="2"
+				idleContinuously="1"
+				normalWeight="1.0"
+				scale=".3 .3 .3"
+				explosionsBone="Hull"/>
+	</model>
+	<group size="3" rowSize="3" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="TwinLinkedCognisHeavyStubber" count="1">
+			<model>
+				<projectileWeapon mesh="Weapons/AstraMilitarum/ThunderboltTwinLinkedAutocannons"
+						material="Units/AstraMilitarum/Thunderbolt"
+						bone="Hull"
+						muzzleBone=".TwinLinkedAutocannonMuzzle"
+						muzzleCount="4"/>
+			</model>
+		</weapon>		
+		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile" count="1" enabled="0">
+			<model>
+				<missileWeapon muzzleBone="Hull"/>
+			</model>	
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=11/11/10 -->
+				<energyUpkeep base="4.0"/> <!-- %energyUpkeep base tier=8 factor=1 -->
+				<energyCost base="40.0"/> <!-- %energyCost base tier=8 factor=0.5 -->
+				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base armor=11/11/10 wounds=3 -->
+				<cargoSlotsRequired base="0"/>
+				<strengthDamage base="-1"/> <!-- %strengthDamage base strength=3 -->
+				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+				<movementMax base="3"/>
+				<oreCost base="40.0"/> <!-- %oreCost base tier=8 factor=0.5 -->
+				<productionCost base="48.0"/> <!-- %productionCost base tier=8 factor=1 -->
+				<rangedAccuracy base="4"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseAircraftScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/ThunderboltAttack"
+						beginFire="0.1" endFire="2.5"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/ThunderboltDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0.2"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action sound="Units/AstraMilitarum/ThunderboltMove"
+						soundCount="3"/>
+			</model>				
+		</move>
+		<createSmokeScreen cooldown="5"
+				icon="Traits/SmokeScreen">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<useWeapon weaponSlotName="HunterKillerMissile"
+				cooldown="10">
+			<model>
+				<action beginFire="0.1" endFire="1.0"/>
+			</model>
+		</useWeapon>
+	</actions>
+	<traits>
+		<trait name="Flyer"/>
+	</traits>
+</unit>

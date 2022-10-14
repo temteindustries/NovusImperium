@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>
+		<unit mesh="Units/AstraMilitarum/Guardsman"
+				material="Units/AstraMilitarum/Guardsman"
+				idleAnimation="Units/AstraMilitarum/GuardsmanIdle"
+				idleAnimationCount="3"
+				idleContinuously="1"
+				normalWeight="0.1"
+				scale="1 1 1"
+				bloodBone="ChestBone"
+				walker="1"/>
+	</model>
+	<group size="1" rowSize="4" memberDeltaX="70" memberDeltaY="50"/>
+	<weapons>
+		<weapon name="Boltgun" slotName="Boltgun">
+			<model>
+				<beamWeapon mesh="Weapons/SpaceMarines/Bolter"
+						material="Weapons/SpaceMarines/Bolter"
+						bone="RightHandBone"
+						muzzleBone="Muzzle0"
+						fireInterval="0.5"/>
+			</model>
+		</weapon>
+		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
+			</model>
+		</weapon>
+		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
+			<model>
+				<grenadeWeapon muzzleBone="LeftHandBone"/>
+			</model>
+		</weapon>
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="6"/> <!-- %armor base armor=5+ -->
+				<foodUpkeep base="1.0"/> <!-- %foodUpkeep base tier=4 factor=1 -->
+				<foodCost base="10.0"/> <!-- %foodCost base tier=4 factor=0.5 -->
+				<hitpointsMax base="7.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
+				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
+				<meleeAttacks base="1"/>
+				<!-- <meleeInitiative base="3"/> -->
+				<oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+				<strengthDamage base="2"/> <!-- %strengthDamage base strength=3 -->
+				<moraleMax base="12"/> <!-- %moraleMax base leadership=6 -->
+				<movementMax base="3"/>
+				<productionCost base="24.0"/> <!-- %productionCost base tier=4 factor=1 -->
+				<rangedAccuracy base="10"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseInfantryScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanAttack"
+						beginFire="0.35" endFire="2.5"/>
+			</model>
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanDie"
+						animationCount="3"
+						sound="Units/MediumUnarmoredDie"
+						soundCount="4"
+						soundDelay="0.4"
+						voiceSound="Units/AstraMilitarum/InfantryDie"
+						voiceSoundCount="5"/>
+			</model>		
+		</die>
+		<idle>
+			<model>
+				<action/>
+			</model>
+		</idle>
+		<move>
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanMove"
+						sound="Units/AstraMilitarum/InfantryMove"
+						soundCount="4"/>
+			</model>
+		</move>
+		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/FragGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>
+		</throwGrenade>
+		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
+				requiredUpgrade="AstraMilitarum/KrakGrenade">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
+						beginFire="0.833333333333"/>
+			</model>				
+		</throwGrenade>
+		<createSmokeScreen cooldown="5"
+				icon="Traits/SmokeScreen" rank="-1" rankMax="0" levelUpPriority="0.1" consumedActionPoints="0">
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<auraOfDiscipline icon="Actions/NovusImperium/AuraOfInspiration" passive="1" rank="-1" rankMax="2" levelUpPriority="0.1" name="NovusImperium/AuraOfInspiration">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="NovusImperium/Inspiration"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfDiscipline>
+		<auraOfDiscipline cooldown="2"
+			icon="Actions/NovusImperium/DisciplinedFire"
+			consumedActionPoints="0"
+			consumedMovement="0"
+			rank="-1"
+			rankMax="2"
+			levelUpPriority="1"
+			requiredActionPoints="0"
+			name="NovusImperium/DisciplinedFire">
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="NovusImperium/DisciplinedFire"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</auraOfDiscipline>
+		<preciseShot cooldown="3"
+				icon="Actions/NovusImperium/PreciseShot"
+				rank="-1"
+				rankMax="2"
+				weaponSlotName="Boltgun"
+				name="Tau/PreciseShot">
+			<model>
+				<action animation="Units/AstraMilitarum/GuardsmanAttack"
+						beginFire="0.35" endFire="2.5"
+						sound="Actions/PreciseShot"/>
+			</model>
+			<modifiers>
+				<modifier>
+					<effects>
+						<accuracy mulMin="0.5" mulMax="1.5"/>
+						<damage mulMin="0.5" mulMax="1.5"/>
+						<addTrait duration="1" name="Pinning"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</preciseShot>
+		<levelUp/>
+		<shop/>
+	</actions>
+	<traits>
+		<trait name="Hero"/>
+		<trait name="RefractorField"/>
+		<trait name="Stubborn"/>
+		<trait name="NovusImperium/Infantry"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
+		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
+	</traits>
+</unit>
