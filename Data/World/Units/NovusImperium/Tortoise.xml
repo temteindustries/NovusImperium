@@ -112,7 +112,7 @@
 	</actions>
 	<traits>
 		<trait name="Amphibious"/>
-		<trait name="MobileCommand"/>
+		<trait name="AssaultVehicle"/>
 		<trait name="Tank"/>
 		<trait name="Transport"/>
 		<trait name="Vehicle"/>

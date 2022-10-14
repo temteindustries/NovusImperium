@@ -1087,6 +1087,8 @@
 	<entry name="Necrons/WrithingWorldscape" value="<string name='Actions/Necrons/WrithingWorldscape'/>"/>
 	<entry name="NoEscape" value="No Escape"/>
 	<entry name="NoEscapeDescription" value="Increases the attacks against open-topped units."/>
+	<entry name="NovusImperium/ArmorPlating" value="Armor Plating"/>
+	<entry name="NovusImperium/ArmorPlatingDescription" value="Vehicle upgrade to increase armor"/>
 	<entry name="NovusImperium/CoordinatedAssault" value="Coordinated Assault"/>
 	<entry name="NovusImperium/CoordinatedAssaultDescription" value="When surrounded by allies, the Centar ignores ranged damage reduction"/>
 	<entry name="NovusImperium/CoordinatedAssaultFlavor" value="Coordinating with friendly ground forces, the Centar is able to provide devestatingly effective fire support"/>
