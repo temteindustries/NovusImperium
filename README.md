@@ -1,1 +1,1 @@
-"A personal mod for Warhammer 40K Gladius" 
+A personal mod for Warhammer 40K Gladius
