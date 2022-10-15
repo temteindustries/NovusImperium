@@ -22,16 +22,6 @@
 						fireInterval="0.5"/>
 			</model>
 		</weapon>
-		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
-			<model>
-				<grenadeWeapon muzzleBone="LeftHandBone"/>
-			</model>
-		</weapon>
-		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
-			<model>
-				<grenadeWeapon muzzleBone="LeftHandBone"/>
-			</model>
-		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -89,20 +79,6 @@
 						soundCount="4"/>
 			</model>
 		</move>
-		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-				requiredUpgrade="AstraMilitarum/FragGrenade">
-			<model>
-				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
-						beginFire="0.833333333333"/>
-			</model>
-		</throwGrenade>
-		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
-				requiredUpgrade="AstraMilitarum/KrakGrenade">
-			<model>
-				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
-						beginFire="0.833333333333"/>
-			</model>				
-		</throwGrenade>
 		<createSmokeScreen cooldown="5"
 				icon="Traits/SmokeScreen" rank="-1" rankMax="0" levelUpPriority="0.1" consumedActionPoints="0">
 			<model>
@@ -195,7 +171,5 @@
 		<trait name="RefractorField"/>
 		<trait name="Stubborn"/>
 		<trait name="NovusImperium/Infantry"/>
-		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 	</traits>
 </unit>

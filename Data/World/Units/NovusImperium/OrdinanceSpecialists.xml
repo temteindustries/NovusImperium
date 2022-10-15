@@ -95,14 +95,14 @@
 		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
 				weaponSlotNames="KrakMissileLauncher FragMissileLauncher"/>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-				requiredUpgrade="AstraMilitarum/FragGrenade">
+				requiredUpgrade="NovusImperium/FragGrenade">
 			<model>
 				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
 						beginFire="0.666666666667"/>
 			</model>		
 		</throwGrenade>
 		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
-				requiredUpgrade="AstraMilitarum/KrakGrenade">
+				requiredUpgrade="NovusImperium/KrakGrenade">
 			<model>
 				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
 						beginFire="0.666666666667"/>

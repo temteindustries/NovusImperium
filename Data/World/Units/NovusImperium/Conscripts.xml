@@ -85,7 +85,7 @@
 			</model>
 		</move>
 		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-				requiredUpgrade="AstraMilitarum/FragGrenade">
+				requiredUpgrade="NovusImperium/FragGrenade">
 			<model>
 				<action animation="Units/AstraMilitarum/GuardsmanGrenade"
 						beginFire="0.833333333333"/>
@@ -120,7 +120,5 @@
 	</actions>
 	<traits>
 		<trait name="NovusImperium/Infantry"/>
-		<trait name="ExtraInfantryArmour" requiredUpgrade="AstraMilitarum/ExtraInfantryArmour"/>
-		<trait name="VoxCaster" requiredUpgrade="AstraMilitarum/VoxCaster"/>
 	</traits>
 </unit>

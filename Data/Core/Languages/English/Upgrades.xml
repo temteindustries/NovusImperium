@@ -1264,6 +1264,10 @@
 	<entry name="Necrons/VehiclesBuildingBonus" value="<string name='Traits/Necrons/VehiclesBuildingBonus'/>"/>
 	<entry name="Necrons/VehiclesBuildingBonusDescription" value="Increases the production output of Hypostyle Temples."/>
 	<entry name="Necrons/VehiclesBuildingBonusFlavor" value="<string name='Traits/Necrons/VehiclesBuildingBonusFlavor'/>"/>
+	<entry name="NovusImperium/FragGrenade" value="Frag Grenade"/>
+	<entry name="NovusImperium/FragGrenadeDescription" value="Grants Conscripts, Regulars and Legionaries the ability to throw anti-infantry grenades."/>
+	<entry name="NovusImperium/KrakGrenade" value="KrakGrenade"/>
+	<entry name="NovusImperium/KrakGrenadeDescription" value="Grants Regulars and Legionaries the ability to throw anti-armour grenades."/>
 	<entry name="NovusImperium/TankShop" value="Tank Shop"/>
 	<entry name="NovusImperium/TankShopDescription" value="Allows tank units to purchase upgrades"/>
 	<entry name="Orks/AmmoRunt" value="<string name='Actions/AmmoRunt'/>"/>
