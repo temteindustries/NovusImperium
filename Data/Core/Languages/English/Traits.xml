@@ -1101,6 +1101,9 @@
 	<entry name="NovusImperium/LastStand" value="Last Stand"/>
 	<entry name="NovusImperium/LastStandDescription" value="When this unit is below 50% health, it will recieve a buff to damage and accuracy"/>
 	<entry name="NovusImperium/LastStandFlavor" value="Realizing their end is near, these units fight harder to preserve the Novus Imperium and enact vengace for their fallen brethren."/>
+	<entry name="NovusImperium/RankAndFile" value="Rank And File"/>
+	<entry name="NovusImperium/RankAndFileDescription" value="When Novus Imperium infantry are adjacent, infantry recieve and give more damage"/>
+	<entry name="NovusImperium/RankAndFileFlavor" value="Per Novus Imperium doctrine, dicsipline and order are paramount to success. Even in dire circumstances, the formation must be held."/>
 	<entry name="OpenTopped" value="Open-Topped"/>
 	<entry name="OpenToppedDescription" value="Classification."/>
 	<entry name="OpenToppedFlavor" value="Some vehicles have only a little armour, making them more vulnerable to damage because of their lightweight construction. However, such vehicles make for excellent assault transports as their passengers can disembark with much greater ease."/>

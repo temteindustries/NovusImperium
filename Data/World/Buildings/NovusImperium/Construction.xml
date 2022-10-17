@@ -62,7 +62,7 @@
 		<constructBuilding building="NovusImperium/Loyalty"/>
 		<constructBuilding building="NovusImperium/Housing"/>
 		<constructBuilding building="NovusImperium/Infantry"/>
-		<constructBuilding building="NovusImperium/Heroes"/>
+		<constructBuilding building="NovusImperium/Heroes" requiredUpgrade="NovusImperium/Heroes"/>
 		<constructBuilding building="NovusImperium/Vehicles" requiredUpgrade="NovusImperium/Vehicles"/>
 		<constructBuilding building="NovusImperium/Aircraft"/>
 		<constructBuilding building="NovusImperium/Construction"/>

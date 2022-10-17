@@ -104,6 +104,10 @@
 	<entry name="Necrons/Vehicles" value="<string name='Buildings/Necrons/Vehicles'/>"/>
 	<entry name="Necrons/VehiclesDescription" value="<string name='Buildings/Necrons/VehiclesDescription'/>"/>
 	<entry name="Necrons/VehiclesFlavor" value="<string name='Buildings/Necrons/VehiclesFlavor'/>"/>
+	<entry name="NovusImperium/Vehicles" value="<string name='Buildings/NovusImperium/Vehicles'/>"/>
+	<entry name="NovusImperium/VehiclesDescription" value="<string name='Buildings/NovusImperium/VehiclesDescription'/>"/>
+	<entry name="NovusImperium/Heroes" value="<string name='Buildings/NovusImperium/Heroes'/>"/>
+	<entry name="NovusImperium/HeroesDescription" value="<string name='Buildings/NovusImperium/HeroesDescription'/>"/>
 	<entry name="Orks/Beasts" value="<string name='Buildings/Orks/Beasts'/>"/>
 	<entry name="Orks/BeastsDescription" value="<string name='Buildings/Orks/BeastsDescription'/>"/>
 	<entry name="Orks/BeastsFlavor" value="<string name='Buildings/Orks/BeastsFlavor'/>"/>
@@ -223,6 +227,9 @@
 	<entry name="AstraMilitarum/VehicleProductionEdict" value="<string name='Actions/AstraMilitarumVehicleProductionEdict'/>"/>
 	<entry name="AstraMilitarum/VehicleProductionEdictDescription" value="<string name='Actions/AstraMilitarumVehicleProductionEdictDescription'/>"/>
 	<entry name="AstraMilitarum/VehicleProductionEdictFlavor" value="<string name='Actions/AstraMilitarumVehicleProductionEdictFlavor'/>"/>
+	<entry name="NovusImperium/ResourceEdict" value="<string name='Actions/NovusImperium/ResourceEdict'/>"/>
+	<entry name="NovusImperium/ResourceEdictDescription" value="<string name='Actions/NovusImperium/ResourceEdictDescription'/>"/>
+	<entry name="NovusImperium/ResourceEdictFlavor" value="<string name='Actions/NovusImperium/ResourceEdictlavor'/>"/>
 		
 	<!-- Units -->
 	<entry name="AdeptusMechanicus/ArchaeopterStratoraptor" value="<string name='Units/AdeptusMechanicus/ArchaeopterStratoraptor'/>"/>
@@ -480,6 +487,9 @@
 	<entry name="Necrons/TriarchStalker" value="<string name='Units/Necrons/TriarchStalker'/>"/>
 	<entry name="Necrons/TriarchStalkerDescription" value="<string name='Units/Necrons/TriarchStalkerDescription'/>"/>
 	<entry name="Necrons/TriarchStalkerFlavor" value="<string name='Units/Necrons/TriarchStalkerFlavor'/>"/>
+	<entry name="NovusImperium/CentaurIFV" value="<string name='Units/NovusImperium/CentaurIFV'/>"/>
+	<entry name="NovusImperium/CentaurIFVDescription" value="<string name='Units/NovusImperium/CentaurIFVDescription'/>"/>
+	<entry name="NovusImperium/CentaurIFVFlavor" value="<string name='Units/NovusImperium/CentaurIFVFlavor'/>"/>
 	<entry name="Orks/Battlewagon" value="<string name='Units/Orks/Battlewagon'/>"/>
 	<entry name="Orks/BattlewagonDescription" value="<string name='Units/Orks/BattlewagonDescription'/>"/>
 	<entry name="Orks/BattlewagonFlavor" value="<string name='Units/Orks/BattlewagonFlavor'/>"/>
@@ -1270,6 +1280,8 @@
 	<entry name="NovusImperium/KrakGrenadeDescription" value="Grants Regulars and Legionaries the ability to throw anti-armour grenades."/>
 	<entry name="NovusImperium/TankShop" value="Tank Shop"/>
 	<entry name="NovusImperium/TankShopDescription" value="Allows tank units to purchase upgrades"/>
+	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File"/>
+	<entry name="NovusImperium/RankAndFileTacticDescription" value="Tactic for adjacent infantry to recieve and give more damage"/>
 	<entry name="Orks/AmmoRunt" value="<string name='Actions/AmmoRunt'/>"/>
 	<entry name="Orks/AmmoRuntDescription" value="Grants Big Meks, Flash Gitz and Mek Gunz the ability to increase their ranged accuracy."/>
 	<entry name="Orks/AmmoRuntFlavor" value="<string name='Actions/AmmoRuntFlavor'/>"/>

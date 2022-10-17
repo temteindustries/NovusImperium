@@ -604,6 +604,11 @@
 	<entry name="NovusImperium/DisciplinedFireFlavor" value="The Sergaent calls out priority targets to maximize lethality of fire"/>
 	<entry name="NovusImperium/LastStandDoctrine" value="Last Stand Doctrine"/>
 	<entry name="NovusImperium/LastStandDoctrineDescription" value="A doctrine that allows units to recieve a buff to damage and accuracy when their health is below 50%"/>
+	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File Tactic"/>
+	<entry name="NovusImperium/RankAndFileTacticDescription" value="A tactic for adjacent infantry to recieve and give more damage"/>
+	<entry name="NovusImperium/ResourceEdict" value="Increased Quotas"/>
+	<entry name="NovusImperium/ResourceEdictDescription" value="An edict that increases resource collection"/>
+	<entry name="NovusImperium/ResourceEdictFlavor" value="With Imperial power comes Imperial demands, And the ever expanding Empire of the Novus Imperium requires vast amounts of materials"/>
 	<entry name="ObjurationMechanicum" value="Objuration Mechanicum"/>
 	<entry name="ObjurationMechanicumDescription" value="Curses the ranged weaponry of the target enemy unit. Also deals damage if the target is a vehicle or a fortification."/>
 	<entry name="ObjurationMechanicumFlavor" value="Weapons jam and engines seize up as the telekine uses his powers to wrench and twist the inner workings at the hearts of nearby machines."/>

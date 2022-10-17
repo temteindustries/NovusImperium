@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait visibilityCategory="Building" icon="Actions/NovusImperium/ResourceEdict">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building>
+					<type name="NovusImperium/Ore"/>
+					<type name="AstraMilitarum/Food"/>
+					<type name="AstraMilitarum/Energy"/>
+				</building>
+			</conditions>
+			<effects>
+				<ore mul="0.33"/>
+				<food mul="0.33"/>
+				<energy mul="0.33"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

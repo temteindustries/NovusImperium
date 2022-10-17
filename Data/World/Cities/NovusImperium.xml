@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<city>
+<city actionsTitle="GUI/Edicts">
 	<modifiers>
 		<modifier>
 			<effects>
@@ -7,15 +7,37 @@
 			</effects>
 		</modifier>
 	</modifiers>
+	<actions>
+		<tactic cooldown="10"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="NovusImperium/ResourceEdict"
+				requiredUpgrade="NovusImperium/ResourceEdict">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="85"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<actorModifiers>
+				<modifier>
+					<effects>
+						<addTrait duration="10" name="NovusImperium/ResourceEdict"/>
+					</effects>
+				</modifier>
+			</actorModifiers>
+			<strategyModifiers>
+				<modifier>
+					<effects>
+						<increaseOreScore base="1.0"/>
+						<increaseFoodScore base="1.0"/>
+						<increaseEnergyScore base="1.0"/>
+					</effects>
+				</modifier>
+			</strategyModifiers>	
+		</tactic>
+	</actions>
 	<traits>
-		<trait name="AdeptusMechanicus/AdjacencyIntegration" requiredUpgrade="AdeptusMechanicus/AdjacencyIntegration"/>
-		<trait name="AdeptusMechanicus/FidorumVossPrime" requiredUpgrade="AdeptusMechanicus/FidorumVossPrime"/>
-		<trait name="AdeptusMechanicus/IconsOfTheOmnissiah" requiredUpgrade="AdeptusMechanicus/IconsOfTheOmnissiah"/>
-		<trait name="AdeptusMechanicus/SolarReflectors" requiredUpgrade="AdeptusMechanicus/SolarReflectors"/>
-		<trait name="AdeptusMechanicus/SoylensAcquisitionTeams" requiredUpgrade="AdeptusMechanicus/SoylensAcquisitionTeams"/>
-		<trait name="AdeptusMechanicus/TriplexNecessity" requiredUpgrade="AdeptusMechanicus/TriplexNecessity"/>
-		<trait name="AdeptusMechanicus/MonolithicBuildings"/>
-		<trait name="AdeptusMechanicus/LucianSpecialisation" requiredUpgrade="AdeptusMechanicus/LucianSpecialisation"/>
-		<trait name="AdeptusMechanicus/TerranGeneralism" requiredUpgrade="AdeptusMechanicus/TerranGeneralism"/>
 	</traits>
 </city>

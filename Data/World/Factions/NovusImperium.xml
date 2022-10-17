@@ -392,7 +392,32 @@
 		</quest>
 	</quests>
 	<actions>
-	<tactic cooldown="7"
+		<tactic cooldown="7"
+				durationInSeconds="0.1"
+				interfaceSound="Interface/Edict"
+				name="NovusImperium/RankAndFileTactic"
+				requiredUpgrade="NovusImperium/RankAndFileTactic">
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="30"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<unitModifiers>
+				<modifier>
+					<conditions>
+						<unit>
+							<trait name="NovusImperium/Infantry"/>
+						</unit>
+					</conditions>
+					<effects>
+						<addTrait duration="5" name="NovusImperium/RankAndFile"/>
+					</effects>
+				</modifier>
+			</unitModifiers>
+		</tactic>
+		<tactic cooldown="7"
 				durationInSeconds="0.1"
 				interfaceSound="Interface/Edict"
 				name="NovusImperium/LastStandDoctrine">
@@ -419,7 +444,7 @@
 	</actions>
 	<startingUnits>
 		<unit type="NovusImperium/CivilEngineer" count="1"/>
-		<unit type="NovusImperium/CentarIFV" count="1"/>
+		<unit type="NovusImperium/CentaurIFV" count="1"/>
 		<unit type="NovusImperium/Legionary" count="1"/>
 		<unit type="NovusImperium/Conscripts" count="2"/>
 		<unit type="NovusImperium/Optio" count="1"/>

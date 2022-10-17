@@ -13,7 +13,8 @@
 		</modifier>
 		<modifier>
 			<effects>
-				<research add="4"/>
+				<influence add="2"/>
+				<research add="4"/>z
 				<production add="6"/>		
 			</effects>
 		</modifier>

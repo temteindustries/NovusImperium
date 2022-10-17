@@ -331,9 +331,9 @@
 	<entry name="Necrons/Warrior" value="Necron Warriors"/>
 	<entry name="Necrons/WarriorDescription" value="Basic infantry unit."/>
 	<entry name="Necrons/WarriorFlavor" value="Even with only a glimmer of consciousness to guide it, a Necron Warrior is a fearsome and resilient foe. Armed with ancient energy weapons, they can scythe down their enemies with lethal volleys of gauss flayer fire, while their unyielding metal bodies repair themselves should they sustain damage."/>
-	<entry name="NovusImperium/CentarIFV" value="Centar IFV"/>
-	<entry name="NovusImperium/CentarIFVDescription" value="Close support infantry fighting vehicle with transport capacity"/>
-	<entry name="NovusImperium/CentarIFVFlavor" value="Per Novus Imperium doctrine, the Centar carries troops directly into battle and provides direct fire support with its demolisher cannon"/>
+	<entry name="NovusImperium/CentaurIFV" value="Centaur IFV"/>
+	<entry name="NovusImperium/CentaurIFVDescription" value="Close support infantry fighting vehicle with transport capacity"/>
+	<entry name="NovusImperium/CentaurIFVFlavor" value="Per Novus Imperium doctrine, the Centaur carries troops directly into battle and provides direct fire support with its demolisher cannon"/>
 	<entry name="NovusImperium/CivilEngineer" value="Civil Engineer"/>
 	<entry name="NovusImperium/CivilEngineerDescription" value="Support Unit that clears tiles and builds cities"/>
 	<entry name="NovusImperium/CivilEngineerFlavor" value="From small beginnings, Civil Engineers aspire for greatness. Less concerned with the brutality of war, they pride themselves on creating the best logistical infrustructure to support the war effort."/>

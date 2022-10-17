@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Traits/NovusImperium/RankAndFile">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<unit>
+					<unitsInRange count="1" range="1">
+						<allied/>
+						<trait name="NovusImperium/Infantry"/>
+					</unitsInRange>
+				</unit>
+			</conditions>
+			<effects>
+				<damage mul="0.20"/>
+				<damageTaken mul="0.20"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
