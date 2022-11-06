@@ -60,12 +60,12 @@
 		<constructBuilding building="NovusImperium/Research"/>
 		<constructBuilding building="NovusImperium/Influence"/>
 		<constructBuilding building="NovusImperium/Loyalty"/>
-		<constructBuilding building="NovusImperium/Housing"/>
+		<constructBuilding building="NovusImperium/Housing" requiredUpgrade="NovusImperium/Housing"/>
 		<constructBuilding building="NovusImperium/Infantry"/>
 		<constructBuilding building="NovusImperium/Heroes" requiredUpgrade="NovusImperium/Heroes"/>
 		<constructBuilding building="NovusImperium/Vehicles" requiredUpgrade="NovusImperium/Vehicles"/>
 		<constructBuilding building="NovusImperium/Aircraft"/>
 		<constructBuilding building="NovusImperium/Construction"/>
-		<constructBuilding building="NovusImperium/Logistics"/>
+		<constructBuilding building="NovusImperium/Logistics" requiredUpgrade="NovusImperium/Logistics"/>
 	</actions>
 </building>

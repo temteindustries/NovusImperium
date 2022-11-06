@@ -202,46 +202,46 @@
 	<entry name="Necrons/Vehicles" value="Hypostyle Temple"/>
 	<entry name="Necrons/VehiclesDescription" value="Building that produces ground vehicles as well as generates energy and increases loyalty."/>
 	<entry name="Necrons/VehiclesFlavor" value="This high-roofed building is lined with pillars inside. Between them rest or float the great war machines of the Necrons. Deactivated Doomsday Arks, Annihilation Barges, Monoliths and Obelisks wait in serried ranks for the day when a Lord calls for their repair and they can lead his armies once more."/>
-	<entry name="NovusImperium/Aircraft" value="Caelum Portum"/>
+	<entry name="NovusImperium/Aircraft" value="Caelum Portum"/> <!-- Sky Port -->
 	<entry name="NovusImperium/AircraftDescription" value="Building that produces aircraft as well as generates ore and influence."/>
 	<entry name="NovusImperium/AircraftFlavor" value=""/>
-	<entry name="NovusImperium/Construction" value="Labor Corpus"/>
+	<entry name="NovusImperium/Construction" value="Labor Corpus"/> <!-- Labor Corps -->
 	<entry name="NovusImperium/ConstructionDescription" value="Building that constructs new buildings as well as generates food and research."/>
 	<entry name="NovusImperium/ConstructionFlavor" value=""/>
-	<entry name="NovusImperium/Energy" value="Nuclei Fusione Reactor"/>
+	<entry name="NovusImperium/Energy" value="Nuclei Fusione Reactor"/> <!-- Nuclear Fusion Reactor -->
 	<entry name="NovusImperium/EnergyDescription" value="Building that generates energy."/>
 	<entry name="NovusImperium/EnergyFlavor" value=""/>
-	<entry name="NovusImperium/Food" value="Triticum Villam"/>
+	<entry name="NovusImperium/Food" value="Triticum Villam"/> <!-- Wheat Farm -->
 	<entry name="NovusImperium/FoodDescription" value="Building that harvests food."/>
 	<entry name="NovusImperium/FoodFlavor" value=""/>
-	<entry name="NovusImperium/Loyalty" value="Fides Propagator"/>
+	<entry name="NovusImperium/Loyalty" value="Fides Propagator"/> <!-- Faith Propagator -->
 	<entry name="NovusImperium/LoyaltyDescription" value="Building that increases loyalty."/>
 	<entry name="NovusImperium/LoyaltyFlavor" value=""/>
-	<entry name="NovusImperium/Headquarters" value="Forum Imperium"/>
+	<entry name="NovusImperium/Headquarters" value="Forum Imperium"/>  <!-- Imperial Forum -->
 	<entry name="NovusImperium/HeadquartersDescription" value="Headquarters building that generates resources."/>
 	<entry name="NovusImperium/HeadquartersFlavor" value="The central administrative building of any Imperial colony"/>
 	<entry name="NovusImperium/Heroes" value="SPQR Imperium"/>
 	<entry name="NovusImperium/HeroesDescription" value="Building that produces heroes as well as generates influence and increases loyalty."/>
 	<entry name="NovusImperium/HeroesFlavor" value=""/>
-	<entry name="NovusImperium/Housing" value="Habitationi Regio"/>
+	<entry name="NovusImperium/Housing" value="Habitation Regio"/> <!-- Residence Region -->
 	<entry name="NovusImperium/HousingDescription" value="Building that increases population limit."/>
 	<entry name="NovusImperium/HousingFlavor" value=""/>
-	<entry name="NovusImperium/Infantry" value="Legio Castra"/>
+	<entry name="NovusImperium/Infantry" value="Legio Castra"/> <!-- Legion Camp -->
 	<entry name="NovusImperium/InfantryDescription" value="Building that produces infantry as well as increases population limit and generates food."/>
 	<entry name="NovusImperium/InfantryFlavor" value=""/>
-	<entry name="NovusImperium/Influence" value="Theatrum Imperiale"/>
+	<entry name="NovusImperium/Influence" value="Theatrum Imperiale"/> <!-- Imperial Theatre -->
 	<entry name="NovusImperium/InfluenceDescription" value="Building that generates influence."/>
 	<entry name="NovusImperium/InfluenceFlavor" value=""/>
-	<entry name="NovusImperium/Ore" value="Ferrum Mine"/>
+	<entry name="NovusImperium/Ore" value="Ferrum Mine"/> <!-- Iron Mine -->
 	<entry name="NovusImperium/OreDescription" value="Building that harvests ore."/>
 	<entry name="NovusImperium/OreFlavor" value=""/>
-	<entry name="NovusImperium/Research" value="Bibliotheca Imperialia"/>
+	<entry name="NovusImperium/Research" value="Bibliotheca Imperialia"/> <!-- Imperial Library -->
 	<entry name="NovusImperium/ResearchDescription" value="Building that generates research."/>
 	<entry name="NovusImperium/ResearchFlavor" value=""/>
-	<entry name="NovusImperium/Logistics" value="Logistics Imperium"/>
+	<entry name="NovusImperium/Logistics" value="Logistics Imperium"/> <!-- Imperial Logistics -->
 	<entry name="NovusImperium/LogisticsDescription" value="Building that produces civil and military support units and generates research."/>
 	<entry name="NovusImperium/LogisticsFlavor" value=""/>
-	<entry name="NovusImperium/Vehicles" value="Equites Fabricant"/>
+	<entry name="NovusImperium/Vehicles" value="Equites Fabricant"/> <!-- Cavelry Fabricator -->
 	<entry name="NovusImperium/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and research."/>
 	<entry name="NovusImperium/VehiclesFlavor" value=""/>
 	<entry name="Orks/Beasts" value="Runtherd Groundz"/>

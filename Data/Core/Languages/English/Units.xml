@@ -340,6 +340,9 @@
 	<entry name="NovusImperium/Conscripts" value="Conscripts"/>
 	<entry name="NovusImperium/ConscriptsDescription" value="Conscripted light infantry unit."/>
 	<entry name="NovusImperium/ConscriptsFlavor" value="With desperate times come desperate measures! By decreee of the Emperor, the armies of the Novus Imperium must be swelled to meet the perilus demands! In return for their service, these consripts are gaurenteed Imperial citizenship."/>
+	<entry name="NovusImperium/FieldEngineer" value="FieldEngineer"/>
+	<entry name="NovusImperium/FieldEngineerDescription" value="Armored Engineers to build defences and assist forward units"/>
+	<entry name="NovusImperium/FieldEngineerFlavor" value="Field Engineers are one of the most important logistical elements of the Novus Imperium, as their first responsibility is the defence of any territory taken by the Empire!"/>
 	<entry name="NovusImperium/HonorGuards" value="Honor Guards"/>
 	<entry name="NovusImperium/HonorGuardsDescription" value="Elite Heavy Infantry."/>
 	<entry name="NovusImperium/HonorGuardsFlavor" value="Hand picked by the Emperor himself, the Honor Guard are champions of the empire! These soldiers are the best of the best at defying the odds and turning the tide of battle!"/>

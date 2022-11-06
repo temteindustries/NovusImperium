@@ -1104,6 +1104,10 @@
 	<entry name="NovusImperium/RankAndFile" value="Rank And File"/>
 	<entry name="NovusImperium/RankAndFileDescription" value="When Novus Imperium infantry are adjacent, infantry recieve and give more damage"/>
 	<entry name="NovusImperium/RankAndFileFlavor" value="Per Novus Imperium doctrine, dicsipline and order are paramount to success. Even in dire circumstances, the formation must be held."/>
+	<entry name="NovusImperium/VictoryOrDeathTactic" value="Victory Or Death Tactic"/>
+	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
+	<entry name="NovusImperium/VictoryOrDeathDescription" value="Tactic that allows all units to gain an additional increased damage attack, with increased damage recieved."/>
+	<entry name="NovusImperium/VictoryOrDeathFlavor" value="Novus Imperium soldiers are trained from the beggining that victory must sometimes come at the steep cost of death."/>
 	<entry name="OpenTopped" value="Open-Topped"/>
 	<entry name="OpenToppedDescription" value="Classification."/>
 	<entry name="OpenToppedFlavor" value="Some vehicles have only a little armour, making them more vulnerable to damage because of their lightweight construction. However, such vehicles make for excellent assault transports as their passengers can disembark with much greater ease."/>

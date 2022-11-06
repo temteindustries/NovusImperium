@@ -29,7 +29,7 @@
 				<grenadeWeapon muzzleBone="BloodBone"/>
 			</model>
 		</weapon>
-		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="1">
+		<weapon name="MeltaBomb" slotName="MeltaBomb" enabled="0">
 			<model>
 				<grenadeWeapon muzzleBone="BloodBone"/>
 			</model>		
@@ -38,18 +38,18 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="7"/> <!-- %armor base armor=4+ -->
+				<armor base="6"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
 				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
 				<hitpointsMax base="2.0"/> <!-- %hitpointsMax base toughness=3 wounds=1 -->
 				<meleeAccuracy base="6"/> <!-- %meleeAccuracy base weaponSkill=3 -->
 				<meleeAttacks base="1"/>
 				<oreCost base="20.0"/> <!-- %oreCost base tier=6 factor=0.5 -->
-				<strengthDamage base="2"/> <!-- %strengthDamage base strength=3 -->
+				<strengthDamage base="1"/> <!-- %strengthDamage base strength=3 -->
 				<moraleMax base="6"/> <!-- %moraleMax base leadership=6 -->
 				<movementMax base="3"/>
 				<productionCost base="36.0"/> <!-- %productionCost base tier=6 factor=1 -->
-				<rangedAccuracy base="9"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
 			</effects>
 		</modifier>
 	</modifiers>
@@ -128,6 +128,38 @@
 								<modifier>
 									<effects>
 										<hitpointsFactorFromMax add="0.25"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<mediPack cooldown="1" 
+				requiredUpgrade="NovusImperium/VictoryOrDeath"
+				icon="Traits/NovusImperium/VictoryOrDeath"
+				name="NovusImperium/VictoryOrDeath"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/ArmourUp"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<trait name="NovusImperium/VictoryOrDeathTactic"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="NovusImperium/VictoryOrDeath"/>
 									</effects>
 								</modifier>
 							</modifiers>

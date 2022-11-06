@@ -594,6 +594,14 @@
 	<entry name="Necrons/VoidStrikeFlavor" value="“The best weapon is the one that you never have to use.”<br/>  — Kanaa the Tranquil, Necron Cryptek, creator of the Void Strike."/>
 	<entry name="Necrons/WrithingWorldscape" value="Writhing Worldscape"/>
 	<entry name="Necrons/WrithingWorldscapeDescription" value="Reduces the movement of adjacent enemy units."/>
+	<entry name="NovusImperium/FlakTower" value="Flak Tower"/>
+	<entry name="NovusImperium/FlakTowerDescription" value="An Anti-Air fortification"/>
+	<entry name="NovusImperium/FrontierTower" value="Frontier Tower"/>
+	<entry name="NovusImperium/FrontierTowerDescription" value="Defensive fortification"/>
+	<entry name="NovusImperium/ImperialCastellum" value="Imperial Castellum"/>
+	<entry name="NovusImperium/ImperialCastellumDescription" value="Heavy defensive fortification"/>
+	<entry name="NovusImperium/TestudoShieldStation" value="Testudo Shield Station"/>
+	<entry name="NovusImperium/TestudoShieldStationDescription" value="Fortification that projects a defensive shield to adjacent tiles"/>
 	<entry name="NovusImperium/ArmorPlating" value="Armor Plating"/>
 	<entry name="NovusImperium/ArmorPlatingDescription" value="Vehicle upgrade to increase armor. Unit needs to be in a friendly city to purchase upgrades."/>
 	<entry name="NovusImperium/AuraOfInspiration" value="Aura of Inspiration"/>
@@ -602,6 +610,8 @@
 	<entry name="NovusImperium/DisciplinedFire" value="Disciplined Fire"/>
 	<entry name="NovusImperium/DisciplinedFireDescription" value="Increases the accuracy and damage of the Sergeant and allied Infantry"/>
 	<entry name="NovusImperium/DisciplinedFireFlavor" value="The Sergaent calls out priority targets to maximize lethality of fire"/>
+	<entry name="NovusImperium/FieldEngineerMines" value="Place Mines"/>
+	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Places mines on the target adjacent tile to slow and damage enemies."/>
 	<entry name="NovusImperium/LastStandDoctrine" value="Last Stand Doctrine"/>
 	<entry name="NovusImperium/LastStandDoctrineDescription" value="A doctrine that allows units to recieve a buff to damage and accuracy when their health is below 50%"/>
 	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File Tactic"/>
@@ -609,6 +619,13 @@
 	<entry name="NovusImperium/ResourceEdict" value="Increased Quotas"/>
 	<entry name="NovusImperium/ResourceEdictDescription" value="An edict that increases resource collection"/>
 	<entry name="NovusImperium/ResourceEdictFlavor" value="With Imperial power comes Imperial demands, And the ever expanding Empire of the Novus Imperium requires vast amounts of materials"/>
+	<entry name="NovusImperium/FieldRepair" value="Field Repair"/>
+	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
+	<entry name="NovusImperium/FullServicedRepair" value="Full Service Repair"/>
+	<entry name="NovusImperium/FullServicedDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit within a city tile."/>
+	<entry name="NovusImperium/VictoryOrDeathTactic" value="Victory Or Death"/>
+	<entry name="NovusImperium/VictoryOrDeathTacticDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
+	<entry name="NovusImperium/VictoryOrDeathTacticFlavor" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>
 	<entry name="ObjurationMechanicum" value="Objuration Mechanicum"/>
 	<entry name="ObjurationMechanicumDescription" value="Curses the ranged weaponry of the target enemy unit. Also deals damage if the target is a vehicle or a fortification."/>
 	<entry name="ObjurationMechanicumFlavor" value="Weapons jam and engines seize up as the telekine uses his powers to wrench and twist the inner workings at the hearts of nearby machines."/>

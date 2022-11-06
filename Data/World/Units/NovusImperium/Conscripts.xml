@@ -13,7 +13,7 @@
 	</model>
 	<group size="15" rowSize="5" memberDeltaX="70" memberDeltaY="50"/>
 	<weapons>
-		<weapon name="Autogun">
+		<weapon name="Autogun" slotName="Autogun">
 			<model>
 				<projectileWeapon mesh="Weapons/Neutral/Autogun"
 						material="Units/Neutral/NeophyteHybrid"
@@ -91,7 +91,7 @@
 						beginFire="0.833333333333"/>
 			</model>
 		</throwGrenade>
-		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
+		<mediPack cooldown="10" requiredUpgrade="NovusImperium/MediPack">
 			<model>
 				<action bone="ChestBone"
 						sound="Actions/Heal"/>
@@ -109,6 +109,38 @@
 								<modifier>
 									<effects>
 										<hitpointsFactorFromMax add="0.25"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<mediPack cooldown="1" 
+				requiredUpgrade="NovusImperium/VictoryOrDeath"
+				icon="Traits/NovusImperium/VictoryOrDeath"
+				name="NovusImperium/VictoryOrDeath"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
+			<model>
+				<action bone="ChestBone"
+						sound="Actions/ArmourUp"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<trait name="NovusImperium/VictoryOrDeathTactic"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="NovusImperium/VictoryOrDeath"/>
 									</effects>
 								</modifier>
 							</modifiers>

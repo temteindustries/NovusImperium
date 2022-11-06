@@ -34,7 +34,8 @@
 		</modifier>
 	</strategyModifiers>
 	<actions>
-		<produceUnit unit="NovusImperium/CivilEngineer"/>
-		<produceUnit unit="NovusImperium/MobileCommandVehicle"/>
+		<produceUnit unit="NovusImperium/FieldEngineer"/>
+		<produceUnit unit="NovusImperium/MobileCommandVehicle" requiredUpgrade="NovusImperium/MobileCommandVehicle"/>
+		<produceUnit unit="NovusImperium/CivilEngineer" requiredUpgrade="NovusImperium/CivilEngineer"/>
 	</actions>
 </building>

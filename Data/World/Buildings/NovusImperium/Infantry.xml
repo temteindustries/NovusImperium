@@ -34,8 +34,8 @@
 	</strategyModifiers>
 	<actions>
 		<produceUnit unit="NovusImperium/Conscripts"/>
-		<produceUnit unit="NovusImperium/Regulars"/>
-		<produceUnit unit="NovusImperium/OrdinanceSpecialists"/>
+		<!--<produceUnit unit="NovusImperium/Regulars"/> -->
+		<produceUnit unit="NovusImperium/OrdinanceSpecialists" requiredUpgrade="NovusImperium/OrdinanceSpecialists"/>
 		<produceUnit unit="NovusImperium/Legionary"/>
 	</actions>
 </building>

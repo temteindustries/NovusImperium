@@ -25,16 +25,6 @@
 						fireInterval="0.83"/>
 			</model>	
 		</weapon>
-		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
-			<model>
-				<grenadeWeapon muzzleBone="RightHandBone1"/>
-			</model>	
-		</weapon>
-		<weapon name="KrakGrenade" slotName="KrakGrenade" enabled="0">
-			<model>
-				<grenadeWeapon muzzleBone="RightHandBone1"/>
-			</model>		
-		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -94,20 +84,64 @@
 		</move>
 		<cycleWeapon interfaceSound="Interface/CycleWeapon" 
 				weaponSlotNames="KrakMissileLauncher FragMissileLauncher"/>
-		<throwGrenade weaponSlotName="FragGrenade" cooldown="10"
-				requiredUpgrade="NovusImperium/FragGrenade">
+		<mediPack cooldown="10" requiredUpgrade="AstraMilitarum/MediPack">
 			<model>
-				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
-						beginFire="0.666666666667"/>
-			</model>		
-		</throwGrenade>
-		<throwGrenade weaponSlotName="KrakGrenade" cooldown="10"
-				requiredUpgrade="NovusImperium/KrakGrenade">
+				<action bone="ChestBone"
+						sound="Actions/Heal"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<damaged/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<hitpointsFactorFromMax add="0.25"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<mediPack cooldown="1" 
+				requiredUpgrade="NovusImperium/VictoryOrDeath"
+				icon="Traits/NovusImperium/VictoryOrDeath"
+				name="NovusImperium/VictoryOrDeath"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
 			<model>
-				<action	animation="Units/AstraMilitarum/HeavyWeaponsSquadGrenade"
-						beginFire="0.666666666667"/>
-			</model>				
-		</throwGrenade>
+				<action bone="ChestBone"
+						sound="Actions/ArmourUp"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<unit>
+							<trait name="NovusImperium/VictoryOrDeathTactic"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait duration="1" name="NovusImperium/VictoryOrDeath"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
 	</actions>
 	<traits>
 		<trait name="NovusImperium/Infantry"/>

@@ -104,10 +104,14 @@
 	<entry name="Necrons/Vehicles" value="<string name='Buildings/Necrons/Vehicles'/>"/>
 	<entry name="Necrons/VehiclesDescription" value="<string name='Buildings/Necrons/VehiclesDescription'/>"/>
 	<entry name="Necrons/VehiclesFlavor" value="<string name='Buildings/Necrons/VehiclesFlavor'/>"/>
-	<entry name="NovusImperium/Vehicles" value="<string name='Buildings/NovusImperium/Vehicles'/>"/>
-	<entry name="NovusImperium/VehiclesDescription" value="<string name='Buildings/NovusImperium/VehiclesDescription'/>"/>
 	<entry name="NovusImperium/Heroes" value="<string name='Buildings/NovusImperium/Heroes'/>"/>
 	<entry name="NovusImperium/HeroesDescription" value="<string name='Buildings/NovusImperium/HeroesDescription'/>"/>
+	<entry name="NovusImperium/Housing" value="<string name='Buildings/NovusImperium/Housing'/>"/>
+	<entry name="NovusImperium/HousingDescription" value="<string name='Buildings/NovusImperium/HousingDescription'/>"/>
+	<entry name="NovusImperium/Logistics" value="<string name='Buildings/NovusImperium/Logistics'/>"/>
+	<entry name="NovusImperium/LogisticsDescription" value="<string name='Buildings/NovusImperium/LogisticsDescription'/>"/>
+	<entry name="NovusImperium/Vehicles" value="<string name='Buildings/NovusImperium/Vehicles'/>"/>
+	<entry name="NovusImperium/VehiclesDescription" value="<string name='Buildings/NovusImperium/VehiclesDescription'/>"/>
 	<entry name="Orks/Beasts" value="<string name='Buildings/Orks/Beasts'/>"/>
 	<entry name="Orks/BeastsDescription" value="<string name='Buildings/Orks/BeastsDescription'/>"/>
 	<entry name="Orks/BeastsFlavor" value="<string name='Buildings/Orks/BeastsFlavor'/>"/>
@@ -490,6 +494,12 @@
 	<entry name="NovusImperium/CentaurIFV" value="<string name='Units/NovusImperium/CentaurIFV'/>"/>
 	<entry name="NovusImperium/CentaurIFVDescription" value="<string name='Units/NovusImperium/CentaurIFVDescription'/>"/>
 	<entry name="NovusImperium/CentaurIFVFlavor" value="<string name='Units/NovusImperium/CentaurIFVFlavor'/>"/>
+	<entry name="NovusImperium/MobileCommandVehicle" value="<string name='Units/NovusImperium/MobileCommandVehicle'/>"/>
+	<entry name="NovusImperium/MobileCommandVehicleDescription" value="<string name='Units/NovusImperium/MobileCommandVehicleDescription'/>"/>
+	<entry name="NovusImperium/MobileCommandVehicleFlavor" value="<string name='Units/NovusImperium/MobileCommandVehicleFlavor'/>"/>
+	<entry name="NovusImperium/OrdinanceSpecialists" value="<string name='Units/NovusImperium/OrdinanceSpecialists'/>"/>
+	<entry name="NovusImperium/OrdinanceSpecialistsDescription" value="<string name='Units/NovusImperium/OrdinanceSpecialistsDescription'/>"/>
+	<entry name="NovusImperium/OrdinanceSpecialistsFlavor" value="<string name='Units/NovusImperium/OrdinanceSpecialistsFlavor'/>"/>
 	<entry name="Orks/Battlewagon" value="<string name='Units/Orks/Battlewagon'/>"/>
 	<entry name="Orks/BattlewagonDescription" value="<string name='Units/Orks/BattlewagonDescription'/>"/>
 	<entry name="Orks/BattlewagonFlavor" value="<string name='Units/Orks/BattlewagonFlavor'/>"/>
@@ -1274,14 +1284,19 @@
 	<entry name="Necrons/VehiclesBuildingBonus" value="<string name='Traits/Necrons/VehiclesBuildingBonus'/>"/>
 	<entry name="Necrons/VehiclesBuildingBonusDescription" value="Increases the production output of Hypostyle Temples."/>
 	<entry name="Necrons/VehiclesBuildingBonusFlavor" value="<string name='Traits/Necrons/VehiclesBuildingBonusFlavor'/>"/>
+	<entry name="NovusImperium/FieldEngineerMines" value="Field Engineer Mines"/>
+	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Allows the Field Engineer to place mines on the battlefield"/>
 	<entry name="NovusImperium/FragGrenade" value="Frag Grenade"/>
 	<entry name="NovusImperium/FragGrenadeDescription" value="Grants Conscripts, Regulars and Legionaries the ability to throw anti-infantry grenades."/>
 	<entry name="NovusImperium/KrakGrenade" value="KrakGrenade"/>
 	<entry name="NovusImperium/KrakGrenadeDescription" value="Grants Regulars and Legionaries the ability to throw anti-armour grenades."/>
 	<entry name="NovusImperium/TankShop" value="Tank Shop"/>
-	<entry name="NovusImperium/TankShopDescription" value="Allows tank units to purchase upgrades"/>
+	<entry name="NovusImperium/TankShopDescription" value="Allows tank units to purchase upgrades."/>
 	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File"/>
-	<entry name="NovusImperium/RankAndFileTacticDescription" value="Tactic for adjacent infantry to recieve and give more damage"/>
+	<entry name="NovusImperium/RankAndFileTacticDescription" value="Tactic for adjacent infantry to recieve and give more damage."/>
+	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
+	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
+	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>
 	<entry name="Orks/AmmoRunt" value="<string name='Actions/AmmoRunt'/>"/>
 	<entry name="Orks/AmmoRuntDescription" value="Grants Big Meks, Flash Gitz and Mek Gunz the ability to increase their ranged accuracy."/>
 	<entry name="Orks/AmmoRuntFlavor" value="<string name='Actions/AmmoRuntFlavor'/>"/>
