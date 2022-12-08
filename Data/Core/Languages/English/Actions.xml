@@ -614,6 +614,8 @@
 	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Places mines on the target adjacent tile to slow and damage enemies."/>
 	<entry name="NovusImperium/LastStandDoctrine" value="Last Stand Doctrine"/>
 	<entry name="NovusImperium/LastStandDoctrineDescription" value="A doctrine that allows units to recieve a buff to damage and accuracy when their health is below 50%"/>
+	<entry name="NovusImperium/PestisMissile" value="Pestis Missile Bombardment"/>
+	<entry name="NovusImperium/PestisMissileFlavor" value="The Novus Imperium has discovered a way to harness plague and pestilence to provide a battlefield advantage. Used efficiently it can tip the odds of battle in their favor."/>
 	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File Tactic"/>
 	<entry name="NovusImperium/RankAndFileTacticDescription" value="A tactic for adjacent infantry to recieve and give more damage"/>
 	<entry name="NovusImperium/ResourceEdict" value="Increased Quotas"/>

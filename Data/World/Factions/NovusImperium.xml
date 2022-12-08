@@ -464,7 +464,7 @@
 	</actions>
 	<startingUnits>
 		<unit type="NovusImperium/CivilEngineer" count="1"/>
-		<unit type="NovusImperium/FieldEngineer" count="1"/>
+		<unit type="NovusImperium/Minotaur" count="3"/>
 		<unit type="NovusImperium/CentaurIFV" count="1"/>
 		<unit type="NovusImperium/Legionary" count="1"/>
 		<unit type="NovusImperium/Conscripts" count="2"/>

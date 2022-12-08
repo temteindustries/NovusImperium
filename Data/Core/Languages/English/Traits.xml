@@ -1092,6 +1092,10 @@
 	<entry name="NovusImperium/CoordinatedAssault" value="Coordinated Assault"/>
 	<entry name="NovusImperium/CoordinatedAssaultDescription" value="When surrounded by allies, the Centar ignores ranged damage reduction"/>
 	<entry name="NovusImperium/CoordinatedAssaultFlavor" value="Coordinating with friendly ground forces, the Centar is able to provide devestatingly effective fire support"/>
+	<entry name="NovusImperium/CoordinatedTargeting" value="Coordinated Targeting"/>
+	<entry name="NovusImperium/CoordinatedTargetingDescription" value="Increases the accuracy when adjacent to an allied Minotaur."/>
+	<entry name="NovusImperium/ChemicalSmokeScreen" value="Chemical Smoke Screen"/>
+	<entry name="NovusImperium/ChemicalSmokeScreenDescription" value="Smoke Screen that blights anything in it."/>
 	<entry name="NovusImperium/DisciplinedFire" value="Disciplined Fire"/>
 	<entry name="NovusImperium/DisciplinedFireDescription" value="Increases the accuracy and damage for surrounding units."/>
 	<entry name="NovusImperium/Infantry" value="Novus Imperium Infantry"/>

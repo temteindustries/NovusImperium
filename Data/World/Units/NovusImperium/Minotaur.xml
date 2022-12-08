@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unit>
+	<model>		
+		<unit mesh="Units/SpaceMarines/Hunter"
+				material="Units/SpaceMarines/Hunter"
+				idleAnimation="Units/SpaceMarines/HunterIdle"
+				idleAnimationCount="2"
+				scale="1.1 1.1 1.1"
+				explosionsBone="Hull"
+				uvAnimated="1"/>
+	</model>
+	<weapons>
+		<weapon name="KrakstormMissileSilo" slotName="KrakstormMissileSilo">
+			<model>
+				<missileWeapon
+					mesh="Weapons/SpaceMarines/FortressOfRedemptionSilo"
+					material="Weapons/SpaceMarines/FortressOfRedemptionTurret"
+					bone=".Muzzle0"
+					muzzleBone=".Muzzle"
+					fireInterval="0.75"
+					missileScale="0.6"/>
+			</model>
+		</weapon>
+		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
+				enabled="0">
+			<model>
+				<missileWeapon muzzleBone="Hull"
+						fireInterval="5.0"/>
+			</model>	
+		</weapon>
+		<!--<weapon name="PestisMissile" slotName="PestisMissile"
+				enabled="0">
+			<model>
+				<missileWeapon muzzleBone="Hull"
+						fireInterval="5.0"/>
+			</model>	
+		</weapon> -->		
+	</weapons>
+	<modifiers>
+		<modifier visible="0">
+			<effects>
+				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
+				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
+				<movementMax base="4"/>
+				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
+			</effects>
+		</modifier>
+	</modifiers>
+	<strategyModifiers>
+		<modifier>
+			<effects>
+				<increaseVehiclesScore base="1.0"/>
+			</effects>
+		</modifier>
+	</strategyModifiers>
+	<actions>
+		<attack>
+			<model>
+				<action
+						animation="Units/SpaceMarines/HunterAttack"
+						beginFire="0.7"
+						endFire="2.5"
+						sound="Weapons/MinotaurMissle"
+						soundCount="3"/>
+			</model>				
+		</attack>
+		<die>
+			<model>
+				<action animation="Units/SpaceMarines/HunterDie"
+						sound="Units/MediumVehicleDie"
+						soundCount="3"
+						soundDelay="0"/>
+			</model>		
+		</die>
+		<move>
+			<model>
+				<action animation="Units/SpaceMarines/HunterMove"
+						sound="Units/SpaceMarines/TankMove"
+						soundCount="3"/>
+			</model>		
+		</move>
+		<createSmokeScreen cooldown="10"
+				icon="Traits/SmokeScreen"
+				>
+			<model>
+				<action sound="Actions/SmokeScreen"/>
+			</model>
+			<beginTargets>
+				<selfTarget>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature duration="3" name="SmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</createSmokeScreen>
+		<orbitalStrike 
+		name="NovusImperium/PestisMissile" 
+		icon="Weapons/NovusImperium/ChemicalSmokeScreen" 
+		cooldown="3">
+			<model>
+				<action animation="Units/SpaceMarines/HunterAttack"
+						beginFire="0.7"
+						endFire="2.5"
+						sound="Actions/BombDrop"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="12" sighted="1">
+					<conditions>
+						<tile>
+							<land/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile" radius="1">
+							<modifiers>
+								<modifier>
+									<effects>
+										<reveal/>
+										<addFeature duration="3" name="ChemicalSmokeScreen"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</orbitalStrike>
+		<useWeapon weaponSlotName="HunterKillerMissile"
+				cooldown="10"
+				>
+			<model>
+				<action beginFire="0.1" endFire="1.0"/>
+			</model>
+		</useWeapon>
+		<mediPack name="NovusImperium/ArmorPlating"
+				requiredUpgrade="NovusImperium/TankShop">
+			<model>
+				<action sound="Actions/MechanicalBuff"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<influenceCost base="0"/>
+						<oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<tile>
+							<feature name="NovusImperiumCity"/>
+						</tile>
+						<unit>
+							<supportSystemSlots greater="0"/>
+							<noTrait name="NovusImperium/ArmorPlating"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="NovusImperium/ArmorPlating"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+	</actions>
+	<traits>
+		<trait name="Tank"/>
+		<trait name="Vehicle"/>
+		<trait name="NovusImperium/CoordinatedTargeting"/>
+		<trait name="Tau/SupportSystems" rank="0"/>
+		<trait name="Amphibious"/>
+	</traits>
+</unit>

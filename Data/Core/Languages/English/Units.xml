@@ -349,6 +349,9 @@
 	<entry name="NovusImperium/Legionary" value="Legionary"/>
 	<entry name="NovusImperium/LegionaryDescription" value="Mid-tier infantry unit."/>
 	<entry name="NovusImperium/LegionaryFlavor" value="The Legionaires are the hands of the Emperor, and the pillars of the Novus Imperium. Their blood and sacrifice is what built the Novus Imperium into a prosperus empire!"/>
+	<entry name="NovusImperium/Minotaur" value="Minotaur"/>
+	<entry name="NovusImperium/MinotaurDescription" value="Mid-Range amphibious artillery vehicle"/>
+	<entry name="NovusImperium/MinotaurFlavor" value="Novus Imperium doctrine dictates the use of ground support artillery to soften up enemy positions. The Minotaur is one such tool to acomplish this task either with advanced missle systems or lethal chemical munitions. The screaches of its missles inspire ground forces preparing for their assault!"/>
 	<entry name="NovusImperium/MobileCommandVehicle" value="Mobile Command Vehicle"/>
 	<entry name="NovusImperium/MobileCommandVehicleDescription" value="Tacticle support unit and transport"/>
 	<entry name="NovusImperium/MobileCommandVehicleFlavor" value="Mobile command unit for Novus Imperium officers, allowing tactical support and control."/>

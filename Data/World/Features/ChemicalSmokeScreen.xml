@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature blockingSight="1"
+		category="None"
+		icon="Weapons/NovusImperium/ChemicalSmokeScreen">
+	<model>
+		<smokeScreen blueprint="Effects/ChemicalSmokeScreen"/>
+	</model>
+	<traits>
+		<trait name="SmokeScreen"/>
+		<trait name="Blighted"/>
+	</traits>
+</feature>
