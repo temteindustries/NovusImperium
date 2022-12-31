@@ -512,6 +512,9 @@
 	<entry name="NovusImperium/CentaurIFV" value="<string name='Units/NovusImperium/CentaurIFV'/>"/>
 	<entry name="NovusImperium/CentaurIFVDescription" value="<string name='Units/NovusImperium/CentaurIFVDescription'/>"/>
 	<entry name="NovusImperium/CentaurIFVFlavor" value="<string name='Units/NovusImperium/CentaurIFVFlavor'/>"/>
+	<entry name="NovusImperium/Minotaur" value="<string name='Units/NovusImperium/Minotaur'/>"/>
+	<entry name="NovusImperium/MinotaurDescription" value="<string name='Units/NovusImperium/MinotaurDescription'/>"/>
+	<entry name="NovusImperium/MinotaurFlavor" value="<string name='Units/NovusImperium/MinotaurFlavor'/>"/>
 	<entry name="NovusImperium/MobileCommandVehicle" value="<string name='Units/NovusImperium/MobileCommandVehicle'/>"/>
 	<entry name="NovusImperium/MobileCommandVehicleDescription" value="<string name='Units/NovusImperium/MobileCommandVehicleDescription'/>"/>
 	<entry name="NovusImperium/MobileCommandVehicleFlavor" value="<string name='Units/NovusImperium/MobileCommandVehicleFlavor'/>"/>
