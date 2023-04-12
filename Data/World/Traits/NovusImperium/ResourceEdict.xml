@@ -5,8 +5,8 @@
 			<conditions>
 				<building>
 					<type name="NovusImperium/Ore"/>
-					<type name="AstraMilitarum/Food"/>
-					<type name="AstraMilitarum/Energy"/>
+					<type name="NovusImperium/Food"/>
+					<type name="NovusImperium/Energy"/>
 				</building>
 			</conditions>
 			<effects>

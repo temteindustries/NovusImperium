@@ -91,7 +91,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addFeature duration="3" name="ChemicalSmokeScreen"/>
+										<addFeature duration="3" name="SmokeScreen"/>
 									</effects>
 								</modifier>
 							</modifiers>

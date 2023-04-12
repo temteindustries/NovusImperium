@@ -7,6 +7,6 @@
 	</model>
 	<traits>
 		<trait name="SmokeScreen"/>
-		<trait name="Blighted"/>
+		<trait name="NovusImperium/Contaminated"/>
 	</traits>
 </feature>

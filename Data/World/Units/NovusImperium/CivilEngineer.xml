@@ -132,21 +132,21 @@
 				</modifier>
 			</modifiers>
 		</clearTileUnitAbility>
-		<masterOfMachines cooldown="1"
-				name="AdeptusMechanicus/MasterOfMachines">
+		<blessingsOfTheOmnissiah cooldown="1" name="NovusImperium/FullServiceRepair" icon="Actions/NovusImperium/FullServiceRepair">
 			<model>
-				<action animation="Units/AstraMilitarum/PrimarisPsykerLifeLeech"
-						sound="Actions/Heal"/>
+				<action sound="Actions/Heal"/>
 			</model>
 			<beginTargets>
-				<target rangeMin="1" rangeMax="1">
+				<target rangeMax="1">
 					<conditions>
+						<tile>
+							<feature name="NovusImperiumCity"/>
+						</tile>
 						<unit>
 							<allied/>
 							<damaged/>
 						</unit>
 						<unit match="Any">
-							<faction name="AdeptusMechanicus"/>
 							<trait name="Fortification"/>
 							<trait name="Vehicle"/>
 						</unit>
@@ -156,7 +156,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<hitpoints add="6"/>
+										<hitpoints add="16"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -164,52 +164,8 @@
 					</areas>
 				</target>
 			</beginTargets>
-		</masterOfMachines>
-		<reprogramKastelanRobot cooldown="5"
-				name="AdeptusMechanicus/ReprogramKastelanRobot">
-			<model>
-				<action animation="Units/AstraMilitarum/PrimarisPsykerLifeLeech"
-						sound="Actions/ReprogramKastelanRobot"/>
-			</model>
-			<modifiers>
-				<modifier visible="0">
-					<conditions>
-						<player>
-							<noFaction name="Neutral"/>
-						</player>
-					</conditions>
-					<effects>
-						<influenceCost base="20"/>
-					</effects>
-				</modifier>
-			</modifiers>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<unit>
-							<enemy/>
-							<type name="Neutral/KastelanRobot"/>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<changePlayer/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</reprogramKastelanRobot>
+		</blessingsOfTheOmnissiah>
 	</actions>
 	<traits>
-		<trait name="AdeptusMechanicus/CanticlesOfTheOmnissiah"/>
-		<trait name="FeelNoPain"/>
-		<trait name="RefractorField"/>
-		<trait name="ExtraInfantryArmour" requiredUpgrade="AdeptusMechanicus/ExtraInfantryArmour"/>
 	</traits>
 </unit>

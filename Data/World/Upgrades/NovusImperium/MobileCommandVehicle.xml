@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade dlc="Supplement6" position="3" icon="Units/NovusImperium/MobileCommandVehicle">
+	<requiredUpgrades>
+		<upgrade name="NovusImperium/Vehicles"/>
+		<upgrade name="NovusImperium/Logistics"/>
+	</requiredUpgrades>
+</upgrade>

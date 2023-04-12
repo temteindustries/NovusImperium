@@ -37,5 +37,6 @@
 		<!--<produceUnit unit="NovusImperium/Regulars"/> -->
 		<produceUnit unit="NovusImperium/OrdinanceSpecialists" requiredUpgrade="NovusImperium/OrdinanceSpecialists"/>
 		<produceUnit unit="NovusImperium/Legionary"/>
+		<produceUnit unit="NovusImperium/HonorGuard" requiredUpgrade="NovusImperium/HonorGuard"/>
 	</actions>
 </building>

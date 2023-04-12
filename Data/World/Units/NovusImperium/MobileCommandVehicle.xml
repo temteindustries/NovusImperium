@@ -16,7 +16,7 @@
 				<projectileWeapon muzzleBone=".HeavyBolterMuzzle"
 						muzzleCount="2"/>
 			</model>
-		</weapon>	
+		</weapon>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -192,6 +192,7 @@
 		<trait name="Amphibious"/>
 		<trait name="Tank"/>
 		<trait name="Transport"/>
+		<trait name="MobileCommand"/>
 		<trait name="Vehicle"/>
 	</traits>
 </unit>

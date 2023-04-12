@@ -210,5 +210,6 @@
 		<trait name="AssaultVehicle"/>
 		<trait name="Vehicle"/>
 		<trait name="Amphibious"/>
+		<!--<trait name="MannedWeapon"/>-->
 	</traits>
 </unit>

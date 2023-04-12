@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Debuff">
+	<perTurnModifiers endure="0">
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="Flyer"/>
+					<noTrait name="NovusImperium/CBRNFilters"/>
+				</unit>
+			</conditions>
+			<effects>
+				<weaponDamage weapon="Blighted"/>
+			</effects>
+		</modifier>
+	</perTurnModifiers>
+</trait>

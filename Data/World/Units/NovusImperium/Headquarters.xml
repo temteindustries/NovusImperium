@@ -22,7 +22,7 @@
 						muzzleCount="5"/>
 			</model>
 		</weapon>
- 		<weapon name="TwinLinkedLascannon" count="1">
+ 		<!--<weapon name="TwinLinkedLascannon" count="1">
 			<model>
 				<beamWeapon mesh="Weapons/SpaceMarines/HeadquartersLascannon"
 						material="Buildings/SpaceMarines/Buildings"
@@ -30,6 +30,14 @@
 						fireInterval="1.0"
 						muzzleBone=".Muzzle0"
 						muzzleCount="1"/>
+			</model>
+		</weapon>-->
+		<weapon name="TwinLinkedIcarusAutocannon" count="1">
+			<model>
+				<projectileWeapon mesh="Weapons/SpaceMarines/HeadquartersLascannon"
+						material="Buildings/SpaceMarines/Buildings"
+						bone="HQBone" fireInterval="1.0"
+						muzzleBone=".Muzzle0" muzzleCount="1"/>
 			</model>
 		</weapon>
 	</weapons>
@@ -61,7 +69,6 @@
 		<setRallyPoint/>
 	</actions>
 	<traits>
-		<trait name="AndTheyShallKnowNoFear"/>
 		<trait name="Fortification"/>
 		<trait name="Headquarters"/>
 		<trait name="Transport"/>

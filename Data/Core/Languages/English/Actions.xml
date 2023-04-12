@@ -623,8 +623,11 @@
 	<entry name="NovusImperium/ResourceEdictFlavor" value="With Imperial power comes Imperial demands, And the ever expanding Empire of the Novus Imperium requires vast amounts of materials"/>
 	<entry name="NovusImperium/FieldRepair" value="Field Repair"/>
 	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
-	<entry name="NovusImperium/FullServicedRepair" value="Full Service Repair"/>
-	<entry name="NovusImperium/FullServicedDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit within a city tile."/>
+	<entry name="NovusImperium/FullServiceRepair" value="Full Service Repair"/>
+	<entry name="NovusImperium/FullServiceDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit within a city tile."/>
+	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
+	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
+	<entry name="NovusImperium/VictoryOrDeathFlavor" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>
 	<entry name="NovusImperium/VictoryOrDeathTactic" value="Victory Or Death"/>
 	<entry name="NovusImperium/VictoryOrDeathTacticDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
 	<entry name="NovusImperium/VictoryOrDeathTacticFlavor" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>

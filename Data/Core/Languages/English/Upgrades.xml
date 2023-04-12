@@ -512,6 +512,11 @@
 	<entry name="NovusImperium/CentaurIFV" value="<string name='Units/NovusImperium/CentaurIFV'/>"/>
 	<entry name="NovusImperium/CentaurIFVDescription" value="<string name='Units/NovusImperium/CentaurIFVDescription'/>"/>
 	<entry name="NovusImperium/CentaurIFVFlavor" value="<string name='Units/NovusImperium/CentaurIFVFlavor'/>"/>
+	<entry name="NovusImperium/FrontierTower" value="<string name='Units/NovusImperium/FrontierTower'/>"/>
+	<entry name="NovusImperium/FrontierTowerDescription" value="<string name='Units/NovusImperium/FrontierTowerDescription'/>"/>
+	<entry name="NovusImperium/HonorGuard" value="<string name='Units/NovusImperium/HonorGuard'/>"/>
+	<entry name="NovusImperium/HonorGuardDescription" value="<string name='Units/NovusImperium/HonorGuardDescription'/>"/>
+	<entry name="NovusImperium/HonorGuardFlavor" value="<string name='Units/NovusImperium/HonorGuardFlavor'/>"/>
 	<entry name="NovusImperium/Minotaur" value="<string name='Units/NovusImperium/Minotaur'/>"/>
 	<entry name="NovusImperium/MinotaurDescription" value="<string name='Units/NovusImperium/MinotaurDescription'/>"/>
 	<entry name="NovusImperium/MinotaurFlavor" value="<string name='Units/NovusImperium/MinotaurFlavor'/>"/>
@@ -1350,6 +1355,10 @@
 	<entry name="Necrons/VehiclesBuildingBonus" value="<string name='Traits/Necrons/VehiclesBuildingBonus'/>"/>
 	<entry name="Necrons/VehiclesBuildingBonusDescription" value="Increases the production output of Hypostyle Temples."/>
 	<entry name="Necrons/VehiclesBuildingBonusFlavor" value="<string name='Traits/Necrons/VehiclesBuildingBonusFlavor'/>"/>
+	<entry name="NovusImperium/CityTier2" value="<string name='Traits/AstraMilitarum/CityTier2'/>"/>
+	<entry name="NovusImperium/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
+	<entry name="NovusImperium/CityTier3" value="<string name='Traits/AstraMilitarum/CityTier3'/>"/>
+	<entry name="NovusImperium/CityTier3Description" value="Increases the tile acquisition radius of cities."/>
 	<entry name="NovusImperium/FieldEngineerMines" value="Field Engineer Mines"/>
 	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Allows the Field Engineer to place mines on the battlefield"/>
 	<entry name="NovusImperium/FragGrenade" value="Frag Grenade"/>

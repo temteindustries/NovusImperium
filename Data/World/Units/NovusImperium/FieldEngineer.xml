@@ -141,6 +141,7 @@
 				cooldown="1"
 				icon="Weapons/NovusImperium/FieldEngineerMines"
 				name="NovusImperium/FieldEngineerMines"
+				requiredUpgrade="NovusImperium/FieldEngineerMines"
 				>
 			<model>
 				<action sound="Actions/MechanicalBuff"/>
@@ -167,7 +168,28 @@
 				</target>
 			</beginTargets>
 		</clusterMines>
-		<constructImperialStrongpoint icon="Units/AstraMilitarum/ImperialStrongpoint"
+		<clearTileUnitAbility cooldown="1"
+				icon="Actions/ClearTile"
+				name="ClearTile">
+			<model>
+				<action sound="Actions/MechanicalBuff"/>
+			</model>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions/>
+					<areas/>
+				</target>
+			</beginTargets>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<influenceCost base="5"/>
+						<oreCost base="5"/>
+					</effects>
+				</modifier>
+			</modifiers>
+		</clearTileUnitAbility>
+		<constructImperialStrongpoint icon="Units/NovusImperium/FrontierTower"
 			name="NovusImperium/FrontierTower"
 			requiredUpgrade="NovusImperium/FrontierTower"
 				cooldown="5">
@@ -197,7 +219,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addUnit name="AstraMilitarum/ImperialStrongpoint"/>
+										<addUnit name="NovusImperium/FrontierTower"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -284,46 +306,6 @@
 				</target>
 			</beginTargets>
 		</constructImperialStrongpoint>
-		<constructVoidShieldGenerator icon="Units/AstraMilitarum/VoidShieldGenerator"
-			name="NovusImperium/TestudoShieldStation"
-			requiredUpgrade="NovusImperium/TestudoShieldStation"
-			cooldown="2">
-			<model>
-				<action sound="Actions/Construct"/>
-			</model>
-			<modifiers>
-				<modifier visible="0">
-					<effects>
-						<energyCost base="20"/>
-						<oreCost base="20"/>
-					</effects>
-				</modifier>
-			</modifiers>
-			<beginTargets>
-				<target rangeMax="1">
-					<conditions>
-						<tile>
-							<noFeatureCategory name="WireWeed"/>
-							<land/>
-							<noEnemyCity/>
-							<noUnit/>
-							<noFeature name="GravityWaves"/>
-						</tile>
-					</conditions>
-					<areas>
-						<area affects="Tile">
-							<modifiers>
-								<modifier>
-									<effects>
-										<addUnit name="AstraMilitarum/VoidShieldGenerator"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</target>
-			</beginTargets>
-		</constructVoidShieldGenerator>
 		<mediPack cooldown="1" 
 				requiredUpgrade="NovusImperium/VictoryOrDeath"
 				icon="Traits/NovusImperium/VictoryOrDeath"

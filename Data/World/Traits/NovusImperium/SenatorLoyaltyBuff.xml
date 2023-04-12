@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait category="Buff" icon="Actions/Tau/SubvertCity" visibilityCategory="Building">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building>
+					<trait name="Headquarters"/>
+				</building>
+			</conditions>
+			<effects>
+				<loyalty add="10"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>
+

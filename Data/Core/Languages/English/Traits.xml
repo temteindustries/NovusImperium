@@ -1093,6 +1093,15 @@
 	<entry name="NoEscapeDescription" value="Increases the attacks against open-topped units."/>
 	<entry name="NovusImperium/ArmorPlating" value="Armor Plating"/>
 	<entry name="NovusImperium/ArmorPlatingDescription" value="Vehicle upgrade to increase armor"/>
+	<entry name="NovusImperium/CityTier2" value="Substructure Extension"/>
+	<entry name="NovusImperium/CityTier2Description" value="Increases the tile acquisition radius."/>
+	<entry name="NovusImperium/CityTier2Flavor" value="One day, this will be a Hive City—a billion people in one structure, towering over a poisoned world—but first, this settlement needs to expand a little, to set the foundations for the galaxies' biggest conurbations."/>
+	<entry name="NovusImperium/CityTier3" value="Substructure Supply Tunnels"/>
+	<entry name="NovusImperium/CityTier3Description" value="Increases the tile acquisition radius."/>
+	<entry name="NovusImperium/CityTier3Flavor" value="The Departmento Munitorum might be inefficient, but they can plan and the Techpriest Explorators and Servitors can build. These bunkered tunnels allow the Astra Militarum commander to oversee a much larger city area, without losing defensive control."/>
+	<entry name="NovusImperium/CBRNFilters" value="CBRN Filters"/>
+	<entry name="NovusImperium/CBRNFiltersDescription" value="CBRN Filters protect units from contamination"/>
+	<entry name="NovusImperium/CBRNFiltersFlavor" value="Highly prized among the forces of the Novus Imperium, the CBRN Filters provide protection against the most deadly chemical munitions used."/>
 	<entry name="NovusImperium/CoordinatedAssault" value="Coordinated Assault"/>
 	<entry name="NovusImperium/CoordinatedAssaultDescription" value="When surrounded by allies, the Centar ignores ranged damage reduction"/>
 	<entry name="NovusImperium/CoordinatedAssaultFlavor" value="Coordinating with friendly ground forces, the Centar is able to provide devestatingly effective fire support"/>
@@ -1100,6 +1109,8 @@
 	<entry name="NovusImperium/CoordinatedTargetingDescription" value="Increases the accuracy when adjacent to an allied Minotaur."/>
 	<entry name="NovusImperium/ChemicalSmokeScreen" value="Chemical Smoke Screen"/>
 	<entry name="NovusImperium/ChemicalSmokeScreenDescription" value="Smoke Screen that blights anything in it."/>
+	<entry name="NovusImperium/Contaminated" value="Contaminated"/>
+	<entry name="NovusImperium/ContaminatedDescription" value="Contaminated from Chemical Weapons"/>
 	<entry name="NovusImperium/DisciplinedFire" value="Disciplined Fire"/>
 	<entry name="NovusImperium/DisciplinedFireDescription" value="Increases the accuracy and damage for surrounding units."/>
 	<entry name="NovusImperium/Infantry" value="Novus Imperium Infantry"/>

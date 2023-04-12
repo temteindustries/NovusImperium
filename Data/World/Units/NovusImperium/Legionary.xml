@@ -112,7 +112,7 @@
 		</throwGrenade>
 		<mediPack cooldown="10">
 			<model>
-				<action bone="ChestBone"
+				<action bone="BloodBone"
 						sound="Actions/Heal"/>
 			</model>
 			<beginTargets>
@@ -144,7 +144,7 @@
 				consumedActionPoints="0"
 				consumedMovement="0">
 			<model>
-				<action bone="ChestBone"
+				<action bone="BloodBone"
 						sound="Actions/ArmourUp"/>
 			</model>
 			<beginTargets>
