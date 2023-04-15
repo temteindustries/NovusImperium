@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trait alwaysVisible="1" category="Buff" rankMax="2" icon="Actions/NovusImperium/SenatorProductionBuff" visibilityCategory="Tile">
+	<modifiers>
+		<modifier>
+			<conditions>
+				<building>
+					<noTrait name="Headquarters"/>
+				</building>
+			</conditions>
+			<effects>
+				<production mulMin="0.125" mulMax="0.5"/>
+				<food mulMin="0.125" mulMax="0.5"/>
+				<ore mulMin="0.125" mulMax="0.5"/>
+				<energy mulMin="0.125" mulMax="0.5"/>
+				<research mulMin="0.125" mulMax="0.5"/>
+				<influence mulMin="0.125" mulMax="0.5"/>
+				<loyalty mulMin="0.125" mulMax="0.5"/>
+			</effects>
+		</modifier>
+	</modifiers>
+</trait>

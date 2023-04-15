@@ -366,6 +366,9 @@
 	<entry name="NovusImperium/Regulars" value="Regulars"/>
 	<entry name="NovusImperium/RegularsDescription" value="Contracted light infantry unit."/>
 	<entry name="NovusImperium/RegularsFlavor" value="Regulars are the bones of the Novus Imperium legions. They are standard issue and dependable."/>
+	<entry name="NovusImperium/Senator" value="Senator"/>
+	<entry name="NovusImperium/SenatorDescription" value="Influentual Leader that boost performance of city districts"/>
+	<entry name="NovusImperium/SenatorFlavor" value="By the People and For the People, elected Senators can use their talents on the homefront to support the war effort"/>
 	<entry name="NovusImperium/SkyDrones" value="Sky Drones"/>
 	<entry name="NovusImperium/SkyDronesDescription" value="Combat drone unit."/>
 	<entry name="NovusImperium/SkyDronesFlavor" value="These drones are used by tacticle support units to scout the battlefield and provide front line support."/>

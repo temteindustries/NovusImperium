@@ -625,6 +625,8 @@
 	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
 	<entry name="NovusImperium/FullServiceRepair" value="Full Service Repair"/>
 	<entry name="NovusImperium/FullServiceDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit within a city tile."/>
+	<entry name="NovusImperium/SenatorProductionBuff" value="Inspired Workforce"/>
+	<entry name="NovusImperium/SenatorProductionBuffDescription" value="Increases the resource output of any city tile the Senator is stationed at"/>
 	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
 	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
 	<entry name="NovusImperium/VictoryOrDeathFlavor" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>
