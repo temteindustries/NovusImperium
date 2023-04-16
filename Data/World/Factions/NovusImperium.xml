@@ -463,9 +463,7 @@
 		</tactic>
 	</actions>
 	<startingUnits>
-		<unit type="NovusImperium/CivilEngineer" count="2"/>
-		<unit type="NovusImperium/CentaurIFV" count="1"/>
-		<unit type="NovusImperium/Senator" count="1"/>
+		<unit type="NovusImperium/CivilEngineer" count="1"/>
 		<unit type="NovusImperium/Conscripts" count="2"/>
 		<unit type="NovusImperium/Optio" count="1"/>
 	</startingUnits>
