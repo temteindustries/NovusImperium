@@ -36,6 +36,9 @@
 	<entry name="NovusImperium/OrdinanceSpecialists" value="<string name='Units/NovusImperium/OrdinanceSpecialists'/>"/>
 	<entry name="NovusImperium/OrdinanceSpecialistsDescription" value="<string name='Units/NovusImperium/OrdinanceSpecialistsDescription'/>"/>
 	<entry name="NovusImperium/OrdinanceSpecialistsFlavor" value="<string name='Units/NovusImperium/OrdinanceSpecialistsFlavor'/>"/>
+	<entry name="NovusImperium/CivilEngineer" value="<string name='Units/NovusImperium/CivilEngineer'/>"/>
+	<entry name="NovusImperium/CivilEngineerDescription" value="<string name='Units/NovusImperium/CivilEngineerDescription'/>"/>
+	<entry name="NovusImperium/CivilEngineerFlavor" value="<string name='Units/NovusImperium/CivilEngineerFlavor'/>"/>
 
 	<!-- Other -->
 	<entry name="NovusImperium/CityTier2" value="<string name='Traits/AstraMilitarum/CityTier2'/>"/>

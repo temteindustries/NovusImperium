@@ -12,27 +12,15 @@
 				walker="1"/>
 	</model>
 	<weapons>
-		<weapon name="Laspistol">
+		<weapon name="BoltPistol" slotName="BoltPistol">
 			<model>
-				<beamWeapon	mesh="Weapons/AstraMilitarum/PrimarisPsykerLaspistol"
-						material="Weapons/AstraMilitarum/WyrdvanePsykerLaspistol"
+				<projectileWeapon mesh="Weapons/AstraMilitarum/LordCommissarBoltPistol"
+						material="Weapons/AstraMilitarum/LordCommissarBoltPistol"
 						bone="RightHandBone0"
-						muzzleBone="Muzzle0"
-						fireInterval="0.4"/>
+						muzzleBone=".Muzzle0"
+						fireInterval="0.35"/>
 			</model>
 		</weapon>
-		<weapon name="FragGrenade" slotName="FragGrenade" enabled="0">
-			<model>
-				<grenadeWeapon muzzleBone="RightHandBone0"/>
-			</model>		
-		</weapon>
-		<weapon name="MoltenBeam" slotName="MoltenBeam" enabled="0">
-			<model>
-				<beamWeapon muzzleBone="RightHandBone0"/>
-			</model>
-		</weapon>
-		<weapon name="LifeLeech" slotName="LifeLeech" enabled="0"/>
-		<weapon name="PsychicMaelstrom" slotName="PsychicMaelstrom" enabled="0"/>
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
@@ -65,13 +53,7 @@
 			<model>
 				<action animation="Units/AstraMilitarum/PrimarisPsykerAttack"
 						beginFire="1.0"
-						endFire="1.9"
-						chargeAnimation="Units/AstraMilitarum/PrimarisPsykerCharge"
-						chargeBeginFire="0.5"
-						chargeEndFire="1.1"
-						meleeAnimation="Units/AstraMilitarum/PrimarisPsykerMelee"
-						meleeBeginSwing="0.33"
-						meleeEndSwing="1.0"/>
+						endFire="1.9"/>
 			</model>
 		</attack>
 		<die>
