@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<trait category="Buff" icon="Actions/Tau/SubvertCity" visibilityCategory="Building">
+<trait category="Buff" icon="Actions/NovusImperium/FerventSpeech" rankMax="2" visibilityCategory="Building">
 	<modifiers>
 		<modifier>
 			<conditions>
@@ -8,7 +8,7 @@
 				</building>
 			</conditions>
 			<effects>
-				<loyalty add="10"/>
+				<loyalty addMin="5" addMax="20"/>
 			</effects>
 		</modifier>
 	</modifiers>

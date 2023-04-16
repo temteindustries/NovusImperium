@@ -625,8 +625,16 @@
 	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
 	<entry name="NovusImperium/FullServiceRepair" value="Full Service Repair"/>
 	<entry name="NovusImperium/FullServiceDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit within a city tile."/>
-	<entry name="NovusImperium/SenatorProductionBuff" value="Inspired Workforce"/>
-	<entry name="NovusImperium/SenatorProductionBuffDescription" value="Increases the resource output of any city tile the Senator is stationed at"/>
+	<entry name="NovusImperium/FerventSpeech" value="Fervent Speech"/>
+	<entry name="NovusImperium/FerventSpeechDescription" value="Increases the Loyalty of the target city"/>
+	<entry name="NovusImperium/SilverTongue" value="Silver Tongue"/>
+	<entry name="NovusImperium/SilverTongueDescription" value="Allows the Senator to use influence to increase their level"/>
+	<entry name="NovusImperium/BargainedLoyalty" value="Bargained Loyalty"/>
+	<entry name="NovusImperium/BargainedLoyaltyDescription" value="Allows the senator to convert enemy units for a price"/>
+	<entry name="NovusImperium/PoliticalAssasination" value="Political Assasination"/>
+	<entry name="NovusImperium/PoliticalAssasinationDescription" value="Allows the senator to assasinate another hero for a large increase in levels"/>
+	<entry name="NovusImperium/InspiredWorkforce" value="Inspired Workforce"/>
+	<entry name="NovusImperium/InspiredWorkforceDescription" value="Increases the resource output of any city tile the Senator is stationed at"/>
 	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
 	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
 	<entry name="NovusImperium/VictoryOrDeathFlavor" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>

@@ -24,10 +24,10 @@
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="6"/> <!-- %armor base armor=4+ -->
+				<armor base="2"/> <!-- %armor base armor=4+ -->
 				<foodUpkeep base="2.0"/> <!-- %foodUpkeep base tier=6 factor=1 -->
 				<foodCost base="20.0"/> <!-- %foodCost base tier=6 factor=0.5 -->
-				<hitpointsMax base="6.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
+				<hitpointsMax base="3.0"/> <!-- %hitpointsMax base toughness=3 wounds=3 -->
 				<influenceUpkeep base="4.0"/> <!-- %influenceUpkeep base tier=6 factor=2 -->
 				<influenceCost base="80.0"/> <!-- %influenceCost base tier=6 factor=2 -->
 				<itemSlots base="6"/>
@@ -96,7 +96,8 @@
 		<blessingsOfTheOmnissiah cooldown="1"
 				rank="-1"
 				rankMax="2"
-				name="Tau/PurchasePopulation">
+				name="NovusImperium/FerventSpeech"
+				icon="Actions/NovusImperium/FerventSpeech">
 			<model>
 				<action sound="Actions/Proselytise"/>
 			</model>
@@ -124,7 +125,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="NovusImperium/SenatorLoyaltyBuff" duration="5"/>
+										<addTrait name="NovusImperium/FerventSpeech" duration="5"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -134,7 +135,8 @@
 			</beginTargets>
 		</blessingsOfTheOmnissiah>
 		<auraOfDiscipline passive="1" rank="-1" rankMax="2"
-				name="NovusImperium/SenatorProductionBuff">
+				name="NovusImperium/InspiredWorkforce"
+				icon="Actions/NovusImperium/InspiredWorkforce">
 			<beginTargets>
 				<selfTarget>
 					<areas>
@@ -142,7 +144,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="NovusImperium/SenatorProductionBuff"/>
+										<addTrait name="NovusImperium/InspiredWorkforce"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -154,9 +156,11 @@
 		<forbiddenKnowledge
 				consumedActionPoints="1"
 				consumedMovement="0"
-				requiredActionPoints="1">
+				requiredActionPoints="1"
+				name="NovusImperium/SilverTongue"
+				icon="Actions/NovusImperium/SilverTongue">
 			<model>
-				<action sound="Actions/MysticBuff"/>
+				<action sound="Actions/ZephyrsGrace"/>
 			</model>
 			<modifiers>
 				<modifier>
@@ -181,11 +185,13 @@
 				</selfTarget>
 			</beginTargets>
 		</forbiddenKnowledge>
-		<enslavement cooldown="3" rank="6" rankMax="2">
+		<enslavement cooldown="3" rank="-1" rankMax="0" elite="1"
+			name="NovusImperium/BargainedLoyalty" 
+			icon="Actions/NovusImperium/BargainedLoyalty">
 			<model>
 				<action animation="Units/AstraMilitarum/LordCommissarShout"
 						bone="ChestBone"
-						sound="Actions/PsychicDebuff"/>
+						sound="Actions/Bribed"/>
 			</model>
 			<beginTargets>
 				<target rangeMin="1" rangeMax="2">
@@ -202,7 +208,7 @@
 							<modifiers>
 								<modifier>
 									<effects>
-										<addTrait name="Enslaved" removeOnSourceDeath="1"/>
+										<addTrait name="NovusImperium/Bribed" removeOnSourceDeath="1"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -211,9 +217,11 @@
 				</target>
 			</beginTargets>
 		</enslavement>
-		<blessingsOfTheOmnissiah cooldown="1">
+		<blessingsOfTheOmnissiah cooldown="1"
+			name="NovusImperium/PoliticalAssasination" 
+			icon="Actions/NovusImperium/PoliticalAssasination">
 			<model>
-				<action sound="Actions/AstraMilitarumBuff"/>
+				<action sound="Actions/Injection"/>
 			</model>
 			<beginTargets>
 				<target rangeMax="1" rangeMin="1">

@@ -61,6 +61,9 @@
 	<entry name="NecronTomb" value="Necron Tomb"/>
 	<entry name="NecronTombDescription" value="Feature that allows Necrons to found a city on the tile."/>
 	<entry name="NecronTombFlavor" value="Deep beneath this innocuous patch of land lies a Tomb City, where the Necrons have slept away the long millenia. To one who knows the correct protocols, it's a simple matter to begin the procedure of awakening it and its inhabitants from their dreamless sleep…"/>
+	<entry name="NovusImperiumCity" value="Novus Imperium City"/>
+	<entry name="NovusImperiumCityDescription" value="<string name='Traits/CityDescription'/>"/>
+	<entry name="NovusImperiumCityFlavor" value="A Human city devoted to a better life, the people of the Novus Imperium are proud of their cities and strive for a strong sense of community and teamwork. They know civilizations rise and fall on the unity of their people."/>
 	<entry name="Ocean" value="Ocean"/>
 	<entry name="OceanFlavor" value="Who knows what treasures have been swept into Gladius' mighty seas? What long-lost artefacts lie crusted with coral amidst its deep-ocean smokers and light-fearing sea aberrations? Given the richness of the land, no-one has ever explored these questions."/>
 	<entry name="OreField" value="Ore Field"/>

@@ -1113,6 +1113,12 @@
 	<entry name="NovusImperium/ContaminatedDescription" value="Contaminated from Chemical Weapons"/>
 	<entry name="NovusImperium/DisciplinedFire" value="Disciplined Fire"/>
 	<entry name="NovusImperium/DisciplinedFireDescription" value="Increases the accuracy and damage for surrounding units."/>
+	<entry name="NovusImperium/FerventSpeech" value="Fervent Speech"/>
+	<entry name="NovusImperium/FerventSpeechDescription" value="Increases City loyalty"/>
+	<entry name="NovusImperium/InspiredWorkforce" value="Inspired Workforce"/>
+	<entry name="NovusImperium/InspiredWorkforceDescription" value="Increases resource output for a tile"/>
+	<entry name="NovusImperium/Bribed" value="Bribed"/>
+	<entry name="NovusImperium/BribedDescription" value="A Unit who changed sides for the right price"/>
 	<entry name="NovusImperium/Infantry" value="Novus Imperium Infantry"/>
 	<entry name="NovusImperium/InfantryDescription" value="Classification."/>
 	<entry name="NovusImperium/Inspiration" value="Inspiration"/>
