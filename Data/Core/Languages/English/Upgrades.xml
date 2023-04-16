@@ -10,6 +10,8 @@
 	<entry name="NovusImperium/LogisticsDescription" value="<string name='Buildings/NovusImperium/LogisticsDescription'/>"/>
 	<entry name="NovusImperium/Vehicles" value="<string name='Buildings/NovusImperium/Vehicles'/>"/>
 	<entry name="NovusImperium/VehiclesDescription" value="<string name='Buildings/NovusImperium/VehiclesDescription'/>"/>
+	<entry name="NovusImperium/Construction" value="<string name='Buildings/NovusImperium/Construction'/>"/>
+	<entry name="NovusImperium/ConstructionDescription" value="<string name='Buildings/NovusImperium/ConstructionDescription'/>"/>
 	
 	<!-- Edicts -->
 	<entry name="NovusImperium/ResourceEdict" value="<string name='Actions/NovusImperium/ResourceEdict'/>"/>
