@@ -110,7 +110,7 @@
 						beginFire="0.833333333333"/>
 			</model>				
 		</throwGrenade>
-		<mediPack cooldown="10">
+		<mediPack cooldown="10" name="NovusImperium/FirstAid" icon="Actions/NovusImperium/FirstAid" requiredUpgrade="NovusImperium/FirstAid">
 			<model>
 				<action bone="BloodBone"
 						sound="Actions/Heal"/>

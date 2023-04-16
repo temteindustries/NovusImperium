@@ -54,6 +54,9 @@
 	<entry name="AstraMilitarum/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with the Advanced Carbon Polymer, Lightweight, Lorica Segmentata."/>
 	<entry name="NovusImperium/KrakGrenade" value="KrakGrenade"/>
 	<entry name="NovusImperium/KrakGrenadeDescription" value="Grants Regulars and Legionaries the ability to throw anti-armour grenades."/>
+	<entry name="NovusImperium/FirstAid" value="<string name='Actions/NovusImperium/FirstAid'/>"/>
+	<entry name="NovusImperium/FirstAidDescription" value="<string name='Actions/NovusImperium/FirstAidDescription'/>"/>
+	<entry name="NovusImperium/FirstAidFlavor" value="<string name='Actions/NovusImperium/FirstAidFlavor'/>"/>
 	<entry name="NovusImperium/TankShop" value="Tank Shop"/>
 	<entry name="NovusImperium/TankShopDescription" value="Allows tank units to purchase upgrades."/>
 	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File"/>

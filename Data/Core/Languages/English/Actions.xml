@@ -27,6 +27,9 @@
 	<entry name="NovusImperium/ResourceEdict" value="Increased Quotas"/>
 	<entry name="NovusImperium/ResourceEdictDescription" value="An edict that increases resource collection"/>
 	<entry name="NovusImperium/ResourceEdictFlavor" value="With Imperial power comes Imperial demands, And the ever expanding Empire of the Novus Imperium requires vast amounts of materials"/>
+	<entry name="NovusImperium/FirstAid" value="First Aid Kit"/>
+	<entry name="NovusImperium/FirstAidDescription" value="Restores hitpoints."/>
+	<entry name="NovusImperium/FirstAidFlavor" value="First Aid Kits contain the basic dressings and antibiotics to keep a unit of soldiers alive until they can be properly healed by a Medic"/>
 	<entry name="NovusImperium/FieldRepair" value="Field Repair"/>
 	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
 	<entry name="NovusImperium/FullServiceRepair" value="Full Service Repair"/>

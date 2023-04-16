@@ -100,7 +100,7 @@
 				</selfTarget>
 			</beginTargets>
 		</genericUnitAbility>
-		<mediPack cooldown="10">
+		<mediPack cooldown="10" name="NovusImperium/FirstAid" icon="Actions/NovusImperium/FirstAid" requiredUpgrade="NovusImperium/FirstAid">
 			<model>
 				<action bone="Chest"
 						sound="Actions/Heal"/>
