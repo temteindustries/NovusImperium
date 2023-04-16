@@ -14,6 +14,9 @@
 	<entry name="NovusImperium/FieldEngineerFlavor" value="Field Engineers are one of the most important logistical elements of the Novus Imperium, as their first responsibility is the defence of any territory taken by the Empire!"/>
 	<entry name="NovusImperium/FrontierTower" value="Frontier Tower"/>
 	<entry name="NovusImperium/FrontierTowerDescription" value="Fortification with heavy bolters that requires troops to operate."/>
+	<entry name="NovusImperium/Headquarters" value="<string name='Buildings/NovusImperium/Headquarters'/>"/>
+	<entry name="NovusImperium/HeadquartersDescription" value="<string name='Buildings/NovusImperium/HeadquartersDescription'/>"/>
+	<entry name="NovusImperium/HeadquartersFlavor" value="<string name='Buildings/NovusImperium/HeadquartersFlavor'/>"/>
 	<entry name="NovusImperium/HonorGuard" value="Honor Guard"/>
 	<entry name="NovusImperium/HonorGuardDescription" value="Elite Heavy Infantry."/>
 	<entry name="NovusImperium/HonorGuardFlavor" value="Hand picked by the Emperor himself, the Honor Guard are champions of the empire! These soldiers are the best of the best at defying the odds and turning the tide of battle!"/>
