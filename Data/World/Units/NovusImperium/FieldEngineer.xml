@@ -341,5 +341,6 @@
 	</actions>
 	<traits>
 		<trait name="NovusImperium/Infantry"/>
+		<trait name="ExtraInfantryArmour" requiredUpgrade="NovusImperium/ExtraInfantryArmour"/>
 	</traits>
 </unit>
