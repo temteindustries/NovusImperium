@@ -8,6 +8,8 @@
 	<entry name="NovusImperium/HousingDescription" value="<string name='Buildings/NovusImperium/HousingDescription'/>"/>
 	<entry name="NovusImperium/Logistics" value="<string name='Buildings/NovusImperium/Logistics'/>"/>
 	<entry name="NovusImperium/LogisticsDescription" value="<string name='Buildings/NovusImperium/LogisticsDescription'/>"/>
+	<entry name="NovusImperium/Loyalty" value="<string name='Buildings/NovusImperium/Loyalty'/>"/>
+	<entry name="NovusImperium/LoyaltyDescription" value="<string name='Buildings/NovusImperium/LoyaltyDescription'/>"/>
 	<entry name="NovusImperium/Vehicles" value="<string name='Buildings/NovusImperium/Vehicles'/>"/>
 	<entry name="NovusImperium/VehiclesDescription" value="<string name='Buildings/NovusImperium/VehiclesDescription'/>"/>
 	<entry name="NovusImperium/Construction" value="<string name='Buildings/NovusImperium/Construction'/>"/>
