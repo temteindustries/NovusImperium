@@ -119,7 +119,8 @@
 				requiredActionPoints="0"
 				consumedActionPoints="0"
 				consumedMovement="0"
-				unitType="NovusImperium/SkyDrones">
+				unitType="NovusImperium/SkyDrones"
+				requiredUpgrade="NovusImperium/SkyDrones">
 			<model>
 				<action animation=""
 						sound="Actions/DeployDrone"/>

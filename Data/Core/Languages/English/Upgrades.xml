@@ -16,7 +16,7 @@
 	<!-- Edicts -->
 	<entry name="NovusImperium/ResourceEdict" value="<string name='Actions/NovusImperium/ResourceEdict'/>"/>
 	<entry name="NovusImperium/ResourceEdictDescription" value="<string name='Actions/NovusImperium/ResourceEdictDescription'/>"/>
-	<entry name="NovusImperium/ResourceEdictFlavor" value="<string name='Actions/NovusImperium/ResourceEdictlavor'/>"/>
+	<entry name="NovusImperium/ResourceEdictFlavor" value="<string name='Actions/NovusImperium/ResourceEdictFlavor'/>"/>
 		
 	<!-- Units -->
 	<entry name="NovusImperium/CentaurIFV" value="<string name='Units/NovusImperium/CentaurIFV'/>"/>
@@ -57,6 +57,8 @@
 	<entry name="NovusImperium/FirstAid" value="<string name='Actions/NovusImperium/FirstAid'/>"/>
 	<entry name="NovusImperium/FirstAidDescription" value="<string name='Actions/NovusImperium/FirstAidDescription'/>"/>
 	<entry name="NovusImperium/FirstAidFlavor" value="<string name='Actions/NovusImperium/FirstAidFlavor'/>"/>
+	<entry name="NovusImperium/SkyDrones" value="<string name='Units/NovusImperium/SkyDrones'/>"/>
+	<entry name="NovusImperium/SkyDronesDescription" value="<string name='Units/NovusImperium/SkyDronesDescription'/>"/>
 	<entry name="NovusImperium/TankShop" value="Tank Shop"/>
 	<entry name="NovusImperium/TankShopDescription" value="Allows tank units to purchase upgrades."/>
 	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File"/>

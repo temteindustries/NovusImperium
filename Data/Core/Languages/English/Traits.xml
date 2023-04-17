@@ -38,6 +38,9 @@
 	<entry name="NovusImperium/RankAndFile" value="Rank And File"/>
 	<entry name="NovusImperium/RankAndFileDescription" value="When Novus Imperium infantry are adjacent, infantry recieve and give more damage"/>
 	<entry name="NovusImperium/RankAndFileFlavor" value="Per Novus Imperium doctrine, dicsipline and order are paramount to success. Even in dire circumstances, the formation must be held."/>
+	<entry name="NovusImperium/ResourceEdict" value="<string name='Actions/NovusImperium/ResourceEdict'/>"/>
+	<entry name="NovusImperium/ResourceEdictDescription" value="<string name='Actions/NovusImperium/ResourceEdictDescription'/>"/>
+	<entry name="NovusImperium/ResourceEdictFlavor" value="<string name='Actions/NovusImperium/ResourceEdictFlavor'/>"/>
 	<entry name="NovusImperium/VictoryOrDeathTactic" value="Victory Or Death Tactic"/>
 	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
 	<entry name="NovusImperium/VictoryOrDeathDescription" value="Tactic that allows all units to gain an additional increased damage attack, with increased damage recieved."/>
