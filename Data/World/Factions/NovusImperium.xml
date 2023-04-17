@@ -420,7 +420,8 @@
 		<tactic cooldown="7"
 				durationInSeconds="0.1"
 				interfaceSound="Interface/Edict"
-				name="NovusImperium/LastStandDoctrine">
+				name="NovusImperium/LastStand"
+				requiredUpgrade="NovusImperium/LastStand">
 			<modifiers>
 				<modifier visible="0">
 					<effects>

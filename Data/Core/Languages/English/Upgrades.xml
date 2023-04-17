@@ -57,6 +57,8 @@
 	<entry name="NovusImperium/FirstAid" value="<string name='Actions/NovusImperium/FirstAid'/>"/>
 	<entry name="NovusImperium/FirstAidDescription" value="<string name='Actions/NovusImperium/FirstAidDescription'/>"/>
 	<entry name="NovusImperium/FirstAidFlavor" value="<string name='Actions/NovusImperium/FirstAidFlavor'/>"/>
+	<entry name="NovusImperium/LastStand" value="<string name='Actions/NovusImperium/LastStand'/>"/>
+	<entry name="NovusImperium/LastStandDescription" value="<string name='Actions/NovusImperium/LastStandDescription'/>"/>
 	<entry name="NovusImperium/SkyDrones" value="<string name='Units/NovusImperium/SkyDrones'/>"/>
 	<entry name="NovusImperium/SkyDronesDescription" value="<string name='Units/NovusImperium/SkyDronesDescription'/>"/>
 	<entry name="NovusImperium/TankShop" value="Tank Shop"/>
