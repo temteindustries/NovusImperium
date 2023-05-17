@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit icon="Buildings/SpaceMarines/Headquarters">
+<unit icon="Buildings/NovusImperium/Headquarters">
 	<model>
 		<structureUnit mesh="Units/SpaceMarines/Headquarters"
 				material="Buildings/SpaceMarines/Buildings"

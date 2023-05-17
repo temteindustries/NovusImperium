@@ -2,6 +2,8 @@
 <language>
 
 	<!-- Buildings -->
+	<entry name="NovusImperium/Construction" value="<string name='Buildings/NovusImperium/Construction'/>"/>
+	<entry name="NovusImperium/ConstructionDescription" value="<string name='Buildings/NovusImperium/ConstructionDescription'/>"/>
 	<entry name="NovusImperium/Heroes" value="<string name='Buildings/NovusImperium/Heroes'/>"/>
 	<entry name="NovusImperium/HeroesDescription" value="<string name='Buildings/NovusImperium/HeroesDescription'/>"/>
 	<entry name="NovusImperium/Housing" value="<string name='Buildings/NovusImperium/Housing'/>"/>
@@ -12,8 +14,6 @@
 	<entry name="NovusImperium/LoyaltyDescription" value="<string name='Buildings/NovusImperium/LoyaltyDescription'/>"/>
 	<entry name="NovusImperium/Vehicles" value="<string name='Buildings/NovusImperium/Vehicles'/>"/>
 	<entry name="NovusImperium/VehiclesDescription" value="<string name='Buildings/NovusImperium/VehiclesDescription'/>"/>
-	<entry name="NovusImperium/Construction" value="<string name='Buildings/NovusImperium/Construction'/>"/>
-	<entry name="NovusImperium/ConstructionDescription" value="<string name='Buildings/NovusImperium/ConstructionDescription'/>"/>
 	
 	<!-- Edicts -->
 	<entry name="NovusImperium/ResourceEdict" value="<string name='Actions/NovusImperium/ResourceEdict'/>"/>
@@ -24,6 +24,9 @@
 	<entry name="NovusImperium/CentaurIFV" value="<string name='Units/NovusImperium/CentaurIFV'/>"/>
 	<entry name="NovusImperium/CentaurIFVDescription" value="<string name='Units/NovusImperium/CentaurIFVDescription'/>"/>
 	<entry name="NovusImperium/CentaurIFVFlavor" value="<string name='Units/NovusImperium/CentaurIFVFlavor'/>"/>
+	<entry name="NovusImperium/CivilEngineer" value="<string name='Units/NovusImperium/CivilEngineer'/>"/>
+	<entry name="NovusImperium/CivilEngineerDescription" value="<string name='Units/NovusImperium/CivilEngineerDescription'/>"/>
+	<entry name="NovusImperium/CivilEngineerFlavor" value="<string name='Units/NovusImperium/CivilEngineerFlavor'/>"/>
 	<entry name="NovusImperium/FrontierTower" value="<string name='Units/NovusImperium/FrontierTower'/>"/>
 	<entry name="NovusImperium/FrontierTowerDescription" value="<string name='Units/NovusImperium/FrontierTowerDescription'/>"/>
 	<entry name="NovusImperium/HonorGuard" value="<string name='Units/NovusImperium/HonorGuard'/>"/>
@@ -38,36 +41,37 @@
 	<entry name="NovusImperium/OrdinanceSpecialists" value="<string name='Units/NovusImperium/OrdinanceSpecialists'/>"/>
 	<entry name="NovusImperium/OrdinanceSpecialistsDescription" value="<string name='Units/NovusImperium/OrdinanceSpecialistsDescription'/>"/>
 	<entry name="NovusImperium/OrdinanceSpecialistsFlavor" value="<string name='Units/NovusImperium/OrdinanceSpecialistsFlavor'/>"/>
-	<entry name="NovusImperium/CivilEngineer" value="<string name='Units/NovusImperium/CivilEngineer'/>"/>
-	<entry name="NovusImperium/CivilEngineerDescription" value="<string name='Units/NovusImperium/CivilEngineerDescription'/>"/>
-	<entry name="NovusImperium/CivilEngineerFlavor" value="<string name='Units/NovusImperium/CivilEngineerFlavor'/>"/>
-
+	
 	<!-- Other -->
-	<entry name="NovusImperium/CityTier2" value="<string name='Traits/AstraMilitarum/CityTier2'/>"/>
+	<entry name="NovusImperium/CityTier2" value="<string name='Traits/NovusImperium/CityTier2'/>"/>
 	<entry name="NovusImperium/CityTier2Description" value="Increases the tile acquisition radius of cities."/>
-	<entry name="NovusImperium/CityTier3" value="<string name='Traits/AstraMilitarum/CityTier3'/>"/>
+	<entry name="NovusImperium/CityTier3" value="<string name='Traits/NovusImperium/CityTier3'/>"/>
 	<entry name="NovusImperium/CityTier3Description" value="Increases the tile acquisition radius of cities."/>
-	<entry name="NovusImperium/FieldEngineerMines" value="Field Engineer Mines"/>
-	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Allows the Field Engineer to place mines on the battlefield"/>
-	<entry name="NovusImperium/FragGrenade" value="Frag Grenade"/>
-	<entry name="NovusImperium/FragGrenadeDescription" value="Grants Conscripts, Regulars and Legionaries the ability to throw anti-infantry grenades."/>
 	<entry name="NovusImperium/ExtraInfantryArmour" value="<string name='Traits/ExtraInfantryArmour'/>"/>
 	<entry name="NovusImperium/ExtraInfantryArmourDescription" value="Increases the armour of infantry."/>
-	<entry name="AstraMilitarum/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with the Advanced Carbon Polymer, Lightweight, Lorica Segmentata."/>
-	<entry name="NovusImperium/KrakGrenade" value="KrakGrenade"/>
-	<entry name="NovusImperium/KrakGrenadeDescription" value="Grants Regulars and Legionaries the ability to throw anti-armour grenades."/>
+	<entry name="NovusImperium/ExtraInfantryArmourFlavor" value="Most infantry in the 41st millenium are equipped with flak armour or its equivalent. If a commander wants their troops to have more than a slight chance of survival, they'll equip them with the Advanced Carbon Polymer, Lightweight, Lorica Segmentata."/>
+	<entry name="NovusImperium/FieldEngineerMines" value="Field Engineer Mines"/>
+	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Allows the Field Engineer to place mines on the battlefield"/>
 	<entry name="NovusImperium/FirstAid" value="<string name='Actions/NovusImperium/FirstAid'/>"/>
 	<entry name="NovusImperium/FirstAidDescription" value="<string name='Actions/NovusImperium/FirstAidDescription'/>"/>
 	<entry name="NovusImperium/FirstAidFlavor" value="<string name='Actions/NovusImperium/FirstAidFlavor'/>"/>
+	<entry name="NovusImperium/FragGrenade" value="Frag Grenade"/>
+	<entry name="NovusImperium/FragGrenadeDescription" value="Grants Conscripts, Regulars and Legionaries the ability to throw anti-infantry grenades."/>
+	<entry name="NovusImperium/KrakGrenade" value="KrakGrenade"/>
+	<entry name="NovusImperium/KrakGrenadeDescription" value="Grants Regulars and Legionaries the ability to throw anti-armour grenades."/>
 	<entry name="NovusImperium/LastStand" value="<string name='Actions/NovusImperium/LastStand'/>"/>
 	<entry name="NovusImperium/LastStandDescription" value="<string name='Actions/NovusImperium/LastStandDescription'/>"/>
+	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File"/>
+	<entry name="NovusImperium/RankAndFileTacticDescription" value="Tactic for adjacent infantry to recieve and give more damage."/>
+	<entry name="NovusImperium/SmokeLauncher" value="Smoke Launcher"/>
+	<entry name="NovusImperium/SmokeLauncherDescription" value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="NovusImperium/SmokeLauncherFlavor" value="Some vehicles have small launchers mounted onto them that carry smoke canisters. These are used to temporarily obscure the vehicle behind billowing clouds of smoke, allowing it to cross open areas in greater safety—although it does so at the cost of being able to fire its own weapons."/>
 	<entry name="NovusImperium/SkyDrones" value="<string name='Units/NovusImperium/SkyDrones'/>"/>
 	<entry name="NovusImperium/SkyDronesDescription" value="<string name='Units/NovusImperium/SkyDronesDescription'/>"/>
 	<entry name="NovusImperium/TankShop" value="Tank Shop"/>
-	<entry name="NovusImperium/TankShopDescription" value="Allows tank units to purchase upgrades."/>
-	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File"/>
-	<entry name="NovusImperium/RankAndFileTacticDescription" value="Tactic for adjacent infantry to recieve and give more damage."/>
+	<entry name="NovusImperium/TankShopDescription" value="<string name='Traits/NovusImperium/TankShopDescription'/>"/>
+	<entry name="NovusImperium/TankShopFlavor" value="<string name='Traits/NovusImperium/TankShopFlavor'/>"/>
 	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
 	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
-	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>
+	<entry name="NovusImperium/VictoryOrDeathFlavor" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>
 </language>

@@ -1,49 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
-	<entry name="NovusImperium/FlakTower" value="Flak Tower"/>
-	<entry name="NovusImperium/FlakTowerDescription" value="An Anti-Air fortification"/>
-	<entry name="NovusImperium/FrontierTower" value="Frontier Tower"/>
-	<entry name="NovusImperium/FrontierTowerDescription" value="Defensive fortification"/>
-	<entry name="NovusImperium/ImperialCastellum" value="Imperial Castellum"/>
-	<entry name="NovusImperium/ImperialCastellumDescription" value="Heavy defensive fortification"/>
-	<entry name="NovusImperium/TestudoShieldStation" value="Testudo Shield Station"/>
-	<entry name="NovusImperium/TestudoShieldStationDescription" value="Fortification that projects a defensive shield to adjacent tiles"/>
-	<entry name="NovusImperium/ArmorPlating" value="Armor Plating"/>
+	<entry name="NovusImperium/ArmorPlating" value="Tank Shop: Armor Plating"/>
 	<entry name="NovusImperium/ArmorPlatingDescription" value="Vehicle upgrade to increase armor. Unit needs to be in a friendly city to purchase upgrades."/>
 	<entry name="NovusImperium/AuraOfInspiration" value="Aura of Inspiration"/>
 	<entry name="NovusImperium/AuraOfInspirationDescription" value="Decreases the moral loss of the Sergeant and adjacent allied Novus Imperium infantry."/>
 	<entry name="NovusImperium/AuraOfInspirationFlavor" value="The Sergeants coolness under fire inspires even the lowliest of conscripts to keep on fighting!"/>
+	<entry name="NovusImperium/BargainedLoyalty" value="Bargained Loyalty"/>
+	<entry name="NovusImperium/BargainedLoyaltyDescription" value="Allows the senator to convert enemy units for a price"/>
+	<entry name="NovusImperium/CamoNetting" value="Tank Shop: Camo Netting"/>
+	<entry name="NovusImperium/CreateSmokeScreen" value="Create Smoke Screen"/>
+	<entry name="NovusImperium/CreateSmokeScreenDescription" value="Increases the ranged damage reduction of the tile."/>
+	<entry name="NovusImperium/CreateSmokeScreenFlavor" value="Some vehicles have small launchers mounted onto them that carry smoke canisters. These are used to temporarily obscure the vehicle behind billowing clouds of smoke, allowing it to cross open areas in greater safety—although it does so at the cost of being able to fire its own weapons."/>
 	<entry name="NovusImperium/DisciplinedFire" value="Disciplined Fire"/>
 	<entry name="NovusImperium/DisciplinedFireDescription" value="Increases the accuracy and damage of the Sergeant and allied Infantry"/>
 	<entry name="NovusImperium/DisciplinedFireFlavor" value="The Sergaent calls out priority targets to maximize lethality of fire"/>
+	<entry name="NovusImperium/DozerBlade" value="Tank Shop: Dozer Blade"/>
+	<entry name="NovusImperium/FerventSpeech" value="Fervent Speech"/>
+	<entry name="NovusImperium/FerventSpeechDescription" value="Increases the Loyalty of the target city"/>
 	<entry name="NovusImperium/FieldEngineerMines" value="Place Mines"/>
 	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Places mines on the target adjacent tile to slow and damage enemies."/>
+	<entry name="NovusImperium/FieldRepair" value="Field Repair"/>
+	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
+	<entry name="NovusImperium/FirstAid" value="First Aid Kit"/>
+	<entry name="NovusImperium/FirstAidDescription" value="Restores hitpoints."/>
+	<entry name="NovusImperium/FirstAidFlavor" value="First Aid Kits contain the basic dressings and antibiotics to keep a unit of soldiers alive until they can be properly healed by a Medic"/>
+	<entry name="NovusImperium/FlakTower" value="Flak Tower"/>
+	<entry name="NovusImperium/FlakTowerDescription" value="An Anti-Air fortification"/>
+	<entry name="NovusImperium/FrontierTower" value="Frontier Tower"/>
+	<entry name="NovusImperium/FrontierTowerDescription" value="Defensive fortification"/>
+	<entry name="NovusImperium/FullServiceRepair" value="Full Service Repair"/>
+	<entry name="NovusImperium/FullServiceDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit within a city tile."/>
+	<entry name="NovusImperium/ImperialCastellum" value="Imperial Castellum"/>
+	<entry name="NovusImperium/ImperialCastellumDescription" value="Heavy defensive fortification"/>
+	<entry name="NovusImperium/InspiredWorkforce" value="Inspired Workforce"/>
+	<entry name="NovusImperium/InspiredWorkforceDescription" value="Increases the resource output of any city tile the Senator is stationed at"/>
 	<entry name="NovusImperium/LastStand" value="Last Stand Doctrine"/>
 	<entry name="NovusImperium/LastStandDescription" value="A doctrine that allows units to recieve a buff to damage and accuracy when their health is below 50%"/>
 	<entry name="NovusImperium/PestisMissile" value="Pestis Missile Bombardment"/>
 	<entry name="NovusImperium/PestisMissileFlavor" value="The Novus Imperium has discovered a way to harness plague and pestilence to provide a battlefield advantage. Used efficiently it can tip the odds of battle in their favor."/>
+	<entry name="NovusImperium/PoliticalAssasination" value="Political Assasination"/>
+	<entry name="NovusImperium/PoliticalAssasinationDescription" value="Allows the senator to assasinate another hero for a large increase in levels"/>
 	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File Tactic"/>
 	<entry name="NovusImperium/RankAndFileTacticDescription" value="A tactic for adjacent infantry to recieve and give more damage"/>
 	<entry name="NovusImperium/ResourceEdict" value="Increased Quotas"/>
 	<entry name="NovusImperium/ResourceEdictDescription" value="An edict that increases resource collection"/>
 	<entry name="NovusImperium/ResourceEdictFlavor" value="With Imperial power comes Imperial demands, And the ever expanding Empire of the Novus Imperium requires vast amounts of materials"/>
-	<entry name="NovusImperium/FirstAid" value="First Aid Kit"/>
-	<entry name="NovusImperium/FirstAidDescription" value="Restores hitpoints."/>
-	<entry name="NovusImperium/FirstAidFlavor" value="First Aid Kits contain the basic dressings and antibiotics to keep a unit of soldiers alive until they can be properly healed by a Medic"/>
-	<entry name="NovusImperium/FieldRepair" value="Field Repair"/>
-	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
-	<entry name="NovusImperium/FullServiceRepair" value="Full Service Repair"/>
-	<entry name="NovusImperium/FullServiceDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit within a city tile."/>
-	<entry name="NovusImperium/FerventSpeech" value="Fervent Speech"/>
-	<entry name="NovusImperium/FerventSpeechDescription" value="Increases the Loyalty of the target city"/>
 	<entry name="NovusImperium/SilverTongue" value="Silver Tongue"/>
 	<entry name="NovusImperium/SilverTongueDescription" value="Allows the Senator to use influence to increase their level"/>
-	<entry name="NovusImperium/BargainedLoyalty" value="Bargained Loyalty"/>
-	<entry name="NovusImperium/BargainedLoyaltyDescription" value="Allows the senator to convert enemy units for a price"/>
-	<entry name="NovusImperium/PoliticalAssasination" value="Political Assasination"/>
-	<entry name="NovusImperium/PoliticalAssasinationDescription" value="Allows the senator to assasinate another hero for a large increase in levels"/>
-	<entry name="NovusImperium/InspiredWorkforce" value="Inspired Workforce"/>
-	<entry name="NovusImperium/InspiredWorkforceDescription" value="Increases the resource output of any city tile the Senator is stationed at"/>
+	<entry name="NovusImperium/SmokeLauncher" value="Tank Shop: Smoke Launcher"/>
+	<entry name="NovusImperium/SmokeLauncherDescription" value="Grants ground vehicles the ability to launch a smoke screen that increases the ranged damage reduction."/>
+	<entry name="NovusImperium/SmokeLauncherFlavor" value="Some vehicles have small launchers mounted onto them that carry smoke canisters. These are used to temporarily obscure the vehicle behind billowing clouds of smoke, allowing it to cross open areas in greater safety—although it does so at the cost of being able to fire its own weapons."/>
+	<entry name="NovusImperium/TestudoShieldStation" value="Testudo Shield Station"/>
+	<entry name="NovusImperium/TestudoShieldStationDescription" value="Fortification that projects a defensive shield to adjacent tiles"/>
 	<entry name="NovusImperium/VictoryOrDeath" value="Victory Or Death"/>
 	<entry name="NovusImperium/VictoryOrDeathDescription" value="<string name='Traits/NovusImperium/VictoryOrDeathDescription'/>"/>
 	<entry name="NovusImperium/VictoryOrDeathFlavor" value="<string name='Traits/NovusImperium/VictoryOrDeathFlavor'/>"/>

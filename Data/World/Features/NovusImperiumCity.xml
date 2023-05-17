@@ -5,7 +5,7 @@
 		audioEffectSystem="City"
 		blockingSight="1"
 		category="Building"
-		icon="Factions/AdeptusMechanicus">
+		icon="Factions/NovusImperium">
 	<model>
 		<buildings/>
 	</model>

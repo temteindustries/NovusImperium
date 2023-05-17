@@ -76,12 +76,17 @@
 		</move>
 		<createSmokeScreen cooldown="10"
 				icon="Traits/SmokeScreen"
-				requiredUpgrade="AstraMilitarum/SmokeLauncher">
+				requiredUpgrade="NovusImperium/SmokeLauncher">
 			<model>
 				<action sound="Actions/SmokeScreen"/>
 			</model>
 			<beginTargets>
 				<selfTarget>
+					<conditions>
+						<unit>
+							<trait name="NovusImperium/SmokeLauncher"/>
+						</unit>
+					</conditions>
 					<areas>
 						<area affects="Tile">
 							<modifiers>
@@ -96,6 +101,50 @@
 				</selfTarget>
 			</beginTargets>
 		</createSmokeScreen>
+		<mediPack name="NovusImperium/SmokeLauncher"
+				icon="Weapons/NovusImperium/SmokeLauncher"
+				requiredUpgrade="NovusImperium/TankShop"
+				requiredUpgrade="NovusImperium/SmokeLauncher"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
+			<model>
+				<action sound="Actions/MechanicalBuff"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<influenceCost base="0"/>
+						<oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<tile>
+							<feature name="NovusImperiumCity"/>
+						</tile>
+						<unit>
+							<supportSystemSlots greater="0"/>
+							<noTrait name="NovusImperium/SmokeLauncher"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="NovusImperium/SmokeLauncher"/>
+										<supportSystemSlots add="-1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
 		<useWeapon weaponSlotName="HunterKillerMissile"
 				cooldown="10"
 				requiredUpgrade="AstraMilitarum/HunterKillerMissile">
@@ -103,8 +152,98 @@
 				<action beginFire="0.1" endFire="1.0"/>
 			</model>
 		</useWeapon>	
+		<mediPack name="NovusImperium/CamoNetting"
+				icon="Traits/CamoNetting"
+				requiredUpgrade="NovusImperium/TankShop"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
+			<model>
+				<action sound="Actions/MechanicalBuff"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<influenceCost base="0"/>
+						<oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<tile>
+							<feature name="NovusImperiumCity"/>
+						</tile>
+						<unit>
+							<supportSystemSlots greater="0"/>
+							<noTrait name="NovusImperium/CamoNetting"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="NovusImperium/CamoNetting"/>
+										<supportSystemSlots add="-1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
+		<mediPack name="NovusImperium/DozerBlade"
+				icon="Traits/DozerBlade"
+				requiredUpgrade="NovusImperium/TankShop"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
+			<model>
+				<action sound="Actions/MechanicalBuff"/>
+			</model>
+			<modifiers>
+				<modifier visible="1">
+					<effects>
+						<influenceCost base="0"/>
+						<oreCost base="10.0"/> <!-- %oreCost base tier=4 factor=0.5 -->
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<selfTarget>
+					<conditions>
+						<tile>
+							<feature name="NovusImperiumCity"/>
+						</tile>
+						<unit>
+							<supportSystemSlots greater="0"/>
+							<noTrait name="NovusImperium/DozerBlade"/>
+						</unit>
+					</conditions>
+					<areas>
+						<area affects="Unit">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addTrait name="NovusImperium/DozerBlade"/>
+										<supportSystemSlots add="-1"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</selfTarget>
+			</beginTargets>
+		</mediPack>
 		<mediPack name="NovusImperium/ArmorPlating"
-				requiredUpgrade="NovusImperium/TankShop">
+				icon="Traits/ExtraVehicleArmour"
+				requiredUpgrade="NovusImperium/ExtraVehicleArmor"
+				requiredActionPoints="0"
+				consumedActionPoints="0"
+				consumedMovement="0">
 			<model>
 				<action sound="Actions/MechanicalBuff"/>
 			</model>
@@ -133,6 +272,7 @@
 								<modifier>
 									<effects>
 										<addTrait name="NovusImperium/ArmorPlating"/>
+										<supportSystemSlots add="-1"/>
 									</effects>
 								</modifier>
 							</modifiers>
@@ -203,7 +343,7 @@
 		-->
 	</actions>
 	<traits>
-		<trait name="Tau/SupportSystems" rank="0"/>
+		<trait name="NovusImperium/TankShop" rank="0" requiredUpgrade="NovusImperium/TankShop"/>
 		<trait name="Tank"/>
 		<trait name="NovusImperium/CoordinatedAssault"/>
 		<trait name="Transport"/>

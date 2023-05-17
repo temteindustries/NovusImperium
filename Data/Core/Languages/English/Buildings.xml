@@ -12,9 +12,6 @@
 	<entry name="NovusImperium/Food" value="Triticum Villam"/> <!-- Wheat Farm -->
 	<entry name="NovusImperium/FoodDescription" value="Building that harvests food."/>
 	<entry name="NovusImperium/FoodFlavor" value=""/>
-	<entry name="NovusImperium/Loyalty" value="Fides Propagator"/> <!-- Faith Propagator -->
-	<entry name="NovusImperium/LoyaltyDescription" value="Building that increases loyalty."/>
-	<entry name="NovusImperium/LoyaltyFlavor" value=""/>
 	<entry name="NovusImperium/Headquarters" value="Forum Imperium"/>  <!-- Imperial Forum -->
 	<entry name="NovusImperium/HeadquartersDescription" value="Headquarters building that generates resources."/>
 	<entry name="NovusImperium/HeadquartersFlavor" value="The central administrative building of any Imperial colony"/>
@@ -30,15 +27,18 @@
 	<entry name="NovusImperium/Influence" value="Theatrum Imperiale"/> <!-- Imperial Theatre -->
 	<entry name="NovusImperium/InfluenceDescription" value="Building that generates influence."/>
 	<entry name="NovusImperium/InfluenceFlavor" value=""/>
+	<entry name="NovusImperium/Logistics" value="Logistics Imperium"/> <!-- Imperial Logistics -->
+	<entry name="NovusImperium/LogisticsDescription" value="Building that produces civil and military support units and generates research."/>
+	<entry name="NovusImperium/LogisticsFlavor" value=""/>
+	<entry name="NovusImperium/Loyalty" value="Fides Propagator"/> <!-- Faith Propagator -->
+	<entry name="NovusImperium/LoyaltyDescription" value="Building that increases loyalty."/>
+	<entry name="NovusImperium/LoyaltyFlavor" value=""/>
 	<entry name="NovusImperium/Ore" value="Ferrum Mine"/> <!-- Iron Mine -->
 	<entry name="NovusImperium/OreDescription" value="Building that harvests ore."/>
 	<entry name="NovusImperium/OreFlavor" value=""/>
 	<entry name="NovusImperium/Research" value="Bibliotheca Imperialia"/> <!-- Imperial Library -->
 	<entry name="NovusImperium/ResearchDescription" value="Building that generates research."/>
 	<entry name="NovusImperium/ResearchFlavor" value=""/>
-	<entry name="NovusImperium/Logistics" value="Logistics Imperium"/> <!-- Imperial Logistics -->
-	<entry name="NovusImperium/LogisticsDescription" value="Building that produces civil and military support units and generates research."/>
-	<entry name="NovusImperium/LogisticsFlavor" value=""/>
 	<entry name="NovusImperium/Vehicles" value="Equites Fabricant"/> <!-- Cavelry Fabricator -->
 	<entry name="NovusImperium/VehiclesDescription" value="Building that produces ground vehicles as well as generates ore and research."/>
 	<entry name="NovusImperium/VehiclesFlavor" value=""/>
