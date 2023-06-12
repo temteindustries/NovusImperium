@@ -36,5 +36,6 @@
 		<produceUnit unit="NovusImperium/Tortoise"/>
 		<produceUnit unit="NovusImperium/CentaurIFV" requiredUpgrade="NovusImperium/CentaurIFV"/>
 		<produceUnit unit="NovusImperium/Minotaur" requiredUpgrade="NovusImperium/Minotaur"/>
+		<produceUnit unit="NovusImperium/Ballistie" requiredUpgrade="NovusImperium/Ballistie"/>
 	</actions>
 </building>

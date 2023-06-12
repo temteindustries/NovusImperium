@@ -23,6 +23,8 @@
 	<entry name="NovusImperium/CoordinatedAssault" value="Coordinated Assault"/>
 	<entry name="NovusImperium/CoordinatedAssaultDescription" value="When surrounded by allies, the Centar ignores ranged damage reduction"/>
 	<entry name="NovusImperium/CoordinatedAssaultFlavor" value="Coordinating with friendly ground forces, the Centar is able to provide devestatingly effective fire support"/>
+	<entry name="NovusImperium/CoordinatedRadar" value="Coordinated Radar"/>
+	<entry name="NovusImperium/CoordinatedRadarDescription" value="Increases the accuracy when adjacent to an allied Ballistie."/>
 	<entry name="NovusImperium/CoordinatedTargeting" value="Coordinated Targeting"/>
 	<entry name="NovusImperium/CoordinatedTargetingDescription" value="Increases the accuracy when adjacent to an allied Minotaur."/>
 	<entry name="NovusImperium/DisciplinedFire" value="Disciplined Fire"/>

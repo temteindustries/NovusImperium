@@ -21,6 +21,8 @@
 	<entry name="NovusImperium/ResourceEdictFlavor" value="<string name='Actions/NovusImperium/ResourceEdictFlavor'/>"/>
 		
 	<!-- Units -->
+	<entry name="NovusImperium/Ballistie" value="<string name='Units/NovusImperium/Ballistie'/>"/>
+	<entry name="NovusImperium/BallistieDescription" value="<string name='Units/NovusImperium/BallistieDescription'/>"/>
 	<entry name="NovusImperium/CentaurIFV" value="<string name='Units/NovusImperium/CentaurIFV'/>"/>
 	<entry name="NovusImperium/CentaurIFVDescription" value="<string name='Units/NovusImperium/CentaurIFVDescription'/>"/>
 	<entry name="NovusImperium/CentaurIFVFlavor" value="<string name='Units/NovusImperium/CentaurIFVFlavor'/>"/>
@@ -61,6 +63,8 @@
 	<entry name="NovusImperium/KrakGrenadeDescription" value="Grants Regulars and Legionaries the ability to throw anti-armour grenades."/>
 	<entry name="NovusImperium/LastStand" value="<string name='Actions/NovusImperium/LastStand'/>"/>
 	<entry name="NovusImperium/LastStandDescription" value="<string name='Actions/NovusImperium/LastStandDescription'/>"/>
+	<entry name="NovusImperium/Legionary" value="<string name='Units/NovusImperium/Legionary'/>"/>
+	<entry name="NovusImperium/LegionaryDescription" value="<string name='Units/NovusImperium/LegionaryDescription'/>"/>
 	<entry name="NovusImperium/RankAndFileTactic" value="Rank And File"/>
 	<entry name="NovusImperium/RankAndFileTacticDescription" value="Tactic for adjacent infantry to recieve and give more damage."/>
 	<entry name="NovusImperium/SmokeLauncher" value="Smoke Launcher"/>

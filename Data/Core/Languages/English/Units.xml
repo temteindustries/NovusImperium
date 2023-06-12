@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+	<entry name="NovusImperium/Ballistie" value="Ballistie"/>
+	<entry name="NovusImperium/BallistieDescription" value="Anti-Air amphibious vehicle"/>
 	<entry name="NovusImperium/CentaurIFV" value="Centaur IFV"/>
 	<entry name="NovusImperium/CentaurIFVDescription" value="Close support infantry fighting vehicle with transport capacity"/>
 	<entry name="NovusImperium/CentaurIFVFlavor" value="Per Novus Imperium doctrine, the Centaur carries troops directly into battle and provides direct fire support with its demolisher cannon"/>

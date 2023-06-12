@@ -467,5 +467,6 @@
 		<unit type="NovusImperium/CivilEngineer" count="1"/>
 		<unit type="NovusImperium/Conscripts" count="2"/>
 		<unit type="NovusImperium/CentaurIFV" count="1"/>
+		<unit type="NovusImperium/Ballistie" count="1"/>
 	</startingUnits>
 </faction>

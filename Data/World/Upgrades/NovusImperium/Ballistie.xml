@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<upgrade dlc="Supplement9" position="5" icon="Units/NovusImperium/Ballistie">
+	<requiredUpgrades>
+		<upgrade name="NovusImperium/Vehicles"/>
+	</requiredUpgrades>
+</upgrade>

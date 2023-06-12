@@ -1,45 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
-<unit dlc="Supplement10">
-	<model>
-		<unit mesh="Units/AstraMilitarum/DevilDog"
-				material="Units/AstraMilitarum/DevilDog"
-				idleAnimation="Units/AstraMilitarum/DevilDogIdle"
-				idleAnimationCount="3"
-				idleContinuously="1"
+<unit>
+	<model>		
+		<unit mesh="Units/SpaceMarines/Predator"
+				material="Units/SpaceMarines/Predator"
+				idleAnimation="Units/SpaceMarines/PredatorIdle"
+				idleAnimationCount="2"
 				scale="1.1 1.1 1.1"
 				explosionsBone="Hull"
 				uvAnimated="1"/>
 	</model>
 	<weapons>
-		<weapon name="DemolisherCannon">
+		<weapon name="TwinLinkedIcarusAutocannon">
 			<model>
-				<beamWeapon muzzleBone="Cannon_Muzzle" muzzleCount="1"
-						fireInterval="0.7"/>
+				<projectileWeapon mesh="Weapons/SpaceMarines/PredatorLasTurret"
+						material="Weapons/SpaceMarines/PredatorTwinLinkedLascannon"
+						bone=".BarrelAttachment"
+						muzzleBone=".BarrelMuzzle" muzzleCount="2"/>
 			</model>
 		</weapon>
-		<weapon name="HeavyBolter">
-			<model>
-				<projectileWeapon muzzleBone="Machinegun_Muzzle"/>
-			</model>
-		</weapon>
-		<weapon name="HunterKillerMissile" slotName="HunterKillerMissile"
+		<weapon name="SkystrikeMissile" slotName="SkystrikeMissile"
 				enabled="0">
 			<model>
-				<missileWeapon muzzleBone="Hull"/>
+				<missileWeapon muzzleBone="Hull"
+						fireInterval="5.0"/>
 			</model>	
 		</weapon>		
 	</weapons>
 	<modifiers>
 		<modifier visible="0">
 			<effects>
-				<armor base="8"/> <!-- %armor base armor=12/12/10 -->
-				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=12/12/10 wounds=3 -->
-				<moraleMax base="8"/> <!-- %moraleMax base leadership=7 -->
+				<armor base="8"/> <!-- %armor base armor=13/11/10 -->
+				<hitpointsMax base="36.0"/> <!-- %hitpointsMax base armor=13/11/10 wounds=3 -->
+				<moraleMax base="10"/> <!-- %moraleMax base leadership=8 -->
 				<movementMax base="4"/>
-				<oreUpkeep base="3.0"/> <!-- %oreUpkeep base tier=7 factor=1 -->
-				<oreCost base="60.0"/> <!-- %oreCost base tier=7 factor=1 -->
 				<productionCost base="42.0"/> <!-- %productionCost base tier=7 factor=1 -->
-				<rangedAccuracy base="6"/> <!-- %rangedAccuracy base ballisticSkill=3 -->
+				<rangedAccuracy base="8"/> <!-- %rangedAccuracy base ballisticSkill=4 -->
+				<requisitionsUpkeep base="3.0"/> <!-- %requisitionsUpkeep base tier=7 factor=1 -->
+				<requisitionsCost base="60.0"/> <!-- %requisitionsCost base tier=7 factor=1 -->
 				<cargoSlots base="2"/> <!-- %cargoSlots base capacity=12 -->
 			</effects>
 		</modifier>
@@ -54,29 +51,28 @@
 	<actions>
 		<attack>
 			<model>
-				<action animation="Units/AstraMilitarum/DevilDogAttack"
-						beginFire="1.2"
-						endFire="2.43"/>
-			</model>				
+				<action animation="Units/SpaceMarines/PredatorAttack"
+						beginFire="0.33"
+						endFire="2.8"/>
+			</model>		
 		</attack>
 		<die>
 			<model>
-				<action animation="Units/AstraMilitarum/DevilDogDie0"
+				<action animation="Units/SpaceMarines/PredatorDie"
 						sound="Units/MediumVehicleDie"
 						soundCount="3"
 						soundDelay="0"/>
-			</model>
+			</model>		
 		</die>
 		<move>
 			<model>
-				<action animation="Units/AstraMilitarum/DevilDogMove"
-						sound="Units/AstraMilitarum/TankMove"
+				<action animation="Units/SpaceMarines/PredatorMove"
+						sound="Units/SpaceMarines/TankMove"
 						soundCount="3"/>
-			</model>
+			</model>		
 		</move>
-		<useWeapon weaponSlotName="HunterKillerMissile"
-				cooldown="10"
-				requiredUpgrade="AstraMilitarum/HunterKillerMissile">
+		<useWeapon weaponSlotName="SkystrikeMissile"
+				cooldown="10">
 			<model>
 				<action beginFire="0.1" endFire="1.0"/>
 			</model>
@@ -313,43 +309,13 @@
 				</selfTarget>
 			</beginTargets>
 		</mediPack>
-		<!--
-		<mediPack cooldown="3" name="CoordinatedAssault" consumedActionPoints="0">
-			<model>
-			</model>
-			<beginTargets>
-				<selfTarget>
-					<conditions>
-						<unit>
-							<unitsInRange count="1" range="1">
-								<allied/>
-							</unitsInRange>
-						</unit>
-					</conditions>
-					<areas>
-						<area affects="Unit">
-							<modifiers>
-								<modifier>
-									<effects>
-										<rangedDamageReductionBypass add="1.0"/>
-									</effects>
-								</modifier>
-							</modifiers>
-						</area>
-					</areas>
-				</selfTarget>
-			</beginTargets>
-		</mediPack>
-		-->
 	</actions>
 	<traits>
 		<trait name="NovusImperium/TankShop" rank="0" requiredUpgrade="NovusImperium/TankShop"/>
 		<trait name="Tank"/>
-		<trait name="NovusImperium/CoordinatedAssault"/>
-		<trait name="Transport"/>
-		<trait name="AssaultVehicle"/>
 		<trait name="Vehicle"/>
 		<trait name="Amphibious"/>
-		<!--<trait name="MannedWeapon"/>-->
+		<trait name="CoordinatedRadar"/>
+		<trait name="Transport"/>
 	</traits>
 </unit>
