@@ -19,7 +19,7 @@
 			</model>
 		</weapon>
 		<weapon name="SkystrikeMissile" slotName="SkystrikeMissile"
-				enabled="0">
+				enabled="1">
 			<model>
 				<missileWeapon muzzleBone="Hull"
 						fireInterval="5.0"/>
@@ -71,12 +71,6 @@
 						soundCount="3"/>
 			</model>		
 		</move>
-		<useWeapon weaponSlotName="SkystrikeMissile"
-				cooldown="10">
-			<model>
-				<action beginFire="0.1" endFire="1.0"/>
-			</model>
-		</useWeapon>
 		<createSmokeScreen cooldown="10"
 				icon="Traits/SmokeScreen"
 				requiredUpgrade="NovusImperium/SmokeLauncher">
@@ -315,7 +309,7 @@
 		<trait name="Tank"/>
 		<trait name="Vehicle"/>
 		<trait name="Amphibious"/>
-		<trait name="CoordinatedRadar"/>
+		<trait name="NovusImperium/CoordinatedRadar"/>
 		<trait name="Transport"/>
 	</traits>
 </unit>

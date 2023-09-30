@@ -59,13 +59,12 @@
 		<die>
 			<model>
 				<action animation="Units/AstraMilitarum/PrimarisPsykerDie"
-						animationCount="2"
-						sound="Units/MediumArmoredDie"
-						soundCount="4"
-						soundDelay="0.2"
-						voiceSound="Units/AstraMilitarum/PrimarisPsyker"
-						voiceSoundCount="1"/>
-			</model>		
+					sound="Units/MediumUnarmoredDie"
+					soundCount="4"
+					soundDelay="0.5"
+					voiceSound="Units/AstraMilitarum/InfantryDie"
+					voiceSoundCount="5"/>
+			</model>	
 		</die>
 		<idle>
 			<model>
