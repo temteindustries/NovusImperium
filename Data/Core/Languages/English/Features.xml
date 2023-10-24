@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <language>
+	<entry name="BarbedWire" value="Barbed Wire"/>
 	<entry name="ChemicalSmokeScreen" value="<string name='Traits/NovusImperium/ChemicalSmokeScreen'/>"/>
 	<entry name="ChemicalSmokeScreenDescription" value="<string name='Traits/NovusImperium/ChemicalSmokeScreenDescription'/>"/>
 	<entry name="NovusImperiumCity" value="Novus Imperium City"/>

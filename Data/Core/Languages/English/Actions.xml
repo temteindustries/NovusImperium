@@ -17,8 +17,10 @@
 	<entry name="NovusImperium/DozerBlade" value="Tank Shop: Dozer Blade"/>
 	<entry name="NovusImperium/FerventSpeech" value="Fervent Speech"/>
 	<entry name="NovusImperium/FerventSpeechDescription" value="Increases the Loyalty of the target city"/>
+	<entry name="NovusImperium/FieldEngineerBarbedWire" value="Place Barbed Wire"/>
+	<entry name="NovusImperium/FieldEngineerBarbedWireDescription" value="Places barbed wire on the target tile to slow and damage enemies."/>
 	<entry name="NovusImperium/FieldEngineerMines" value="Place Mines"/>
-	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Places mines on the target adjacent tile to slow and damage enemies."/>
+	<entry name="NovusImperium/FieldEngineerMinesDescription" value="Places mines on the target tile to slow and damage enemies."/>
 	<entry name="NovusImperium/FieldRepair" value="Field Repair"/>
 	<entry name="NovusImperium/FieldRepairDescription" value="Restores the hitpoints of the target allied vehicle or fortification unit."/>
 	<entry name="NovusImperium/FirstAid" value="First Aid Kit"/>

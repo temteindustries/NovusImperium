@@ -2,6 +2,8 @@
 <language>
 	<entry name="NovusImperium/ArmorPlating" value="Armor Plating"/>
 	<entry name="NovusImperium/ArmorPlatingDescription" value="Vehicle upgrade to increase armor"/>
+	<entry name="NovusImperium/BarbedWire" value="Barbed Wire"/>
+	<entry name="NovusImperium/BarbedWireFlavor" value="Armed with serrated edges, this fortification damages all ground units alike"/>
 	<entry name="NovusImperium/Bribed" value="Bribed"/>
 	<entry name="NovusImperium/BribedDescription" value="A Unit who changed sides to fight for the Novus Imperium, and for the right price"/>
 	<entry name="NovusImperium/CamoNetting" value="Camo Netting"/>

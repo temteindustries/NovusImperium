@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feature visible="1"
+		icon="Features/BarbedWire"
+		category="WireWeed">
+	<model>
+		<simpleModel mesh="Features/BarbedWire"
+				material="Features/BarbedWire"/>
+
+	</model>
+	<modifiers>
+		<modifier>
+			<effects>
+				<buildingSlots max="0"/>
+			</effects>
+		</modifier>
+		<modifier>
+			<conditions>
+				<unit>
+					<noTrait name="Flyer"/>
+					<noTrait name="Necrons/ImmuneToNaturalLaw"/>
+					<noTrait name="JetPack"/>
+					<noTrait name="Jetbike"/>
+					<noTrait name="Skimmer"/>
+				</unit>
+			</conditions>
+			<effects>
+				<movementCost min="100"/>
+			</effects>
+		</modifier>
+	</modifiers>
+	<traits>
+		<trait name="NovusImperium/BarbedWire"/>
+	</traits>
+</feature>

@@ -168,6 +168,43 @@
 				</target>
 			</beginTargets>
 		</clusterMines>
+		<clusterMines consumedMovement="0"
+				cooldown="1"
+				icon="Features/BarbedWire"
+				name="NovusImperium/FieldEngineerBarbedWire"
+				>
+			<model>
+				<action sound="Actions/MechanicalBuff"/>
+			</model>
+			<modifiers>
+				<modifier visible="0">
+					<effects>
+						<oreCost base="5"/>
+					</effects>
+				</modifier>
+			</modifiers>
+			<beginTargets>
+				<target rangeMax="1">
+					<conditions>
+						<tile>
+							<land/>
+							<noEnemyUnit/>
+						</tile>
+					</conditions>
+					<areas>
+						<area affects="Tile">
+							<modifiers>
+								<modifier>
+									<effects>
+										<addFeature name="BarbedWire"/>
+									</effects>
+								</modifier>
+							</modifiers>
+						</area>
+					</areas>
+				</target>
+			</beginTargets>
+		</clusterMines>
 		<clearTileUnitAbility cooldown="1"
 				icon="Actions/ClearTile"
 				name="ClearTile">
@@ -191,7 +228,6 @@
 		</clearTileUnitAbility>
 		<constructImperialStrongpoint icon="Units/NovusImperium/FrontierTower"
 			name="NovusImperium/FrontierTower"
-			requiredUpgrade="NovusImperium/FrontierTower"
 				cooldown="5">
 			<model>
 				<action sound="Actions/Construct"/>
@@ -199,7 +235,7 @@
 			<modifiers>
 				<modifier visible="0">
 					<effects>
-						<oreCost base="40"/>
+						<oreCost base="20"/>
 					</effects>
 				</modifier>
 			</modifiers>

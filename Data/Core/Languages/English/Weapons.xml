@@ -2,4 +2,6 @@
 <language>
 	<entry name="PestisMissile" value="Pestis Missile"/>
 	<entry name="PestisMissileFlavor" value="Some say its chalky, all say its deadly"/>
+	<entry name="BarbedWire" value="Barbed Wire"/>
+	<entry name="BarbedWireFlavor" value="Armed with serrated edges, this fortification damages all ground units alike"/>
 </language>

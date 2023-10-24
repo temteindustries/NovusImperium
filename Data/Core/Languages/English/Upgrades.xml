@@ -29,8 +29,6 @@
 	<entry name="NovusImperium/CivilEngineer" value="<string name='Units/NovusImperium/CivilEngineer'/>"/>
 	<entry name="NovusImperium/CivilEngineerDescription" value="<string name='Units/NovusImperium/CivilEngineerDescription'/>"/>
 	<entry name="NovusImperium/CivilEngineerFlavor" value="<string name='Units/NovusImperium/CivilEngineerFlavor'/>"/>
-	<entry name="NovusImperium/FrontierTower" value="<string name='Units/NovusImperium/FrontierTower'/>"/>
-	<entry name="NovusImperium/FrontierTowerDescription" value="<string name='Units/NovusImperium/FrontierTowerDescription'/>"/>
 	<entry name="NovusImperium/HonorGuard" value="<string name='Units/NovusImperium/HonorGuard'/>"/>
 	<entry name="NovusImperium/HonorGuardDescription" value="<string name='Units/NovusImperium/HonorGuardDescription'/>"/>
 	<entry name="NovusImperium/HonorGuardFlavor" value="<string name='Units/NovusImperium/HonorGuardFlavor'/>"/>
